@@ -1,15 +1,5 @@
 <div align="center">
 
-```
- ___  ___  ________  ________  ________  ________     
-|\  \|\  \|\   __  \|\   ____\|\   __  \|\   __  \    
-\ \  \\\  \ \  \|\  \ \  \___|\ \  \|\  \ \  \|\  \   
- \ \   __  \ \   __  \ \  \  __\ \   __  \ \   _  _\  
-  \ \  \ \  \ \  \ \  \ \  \|\  \ \  \ \  \ \  \\  \| 
-   \ \__\ \__\ \__\ \__\ \_______\ \__\ \__\ \__\\ _\ 
-    \|__|\|__|\|__|\|__|\|_______|\|__|\|__|\|__|\|__|
-```
-
 <h1>hey, i'm sagar 👋</h1>
 
 <p><em>building things at the intersection of AI and frontend — one clean component at a time</em></p>
@@ -24,8 +14,8 @@
 
 ## 🔭 what i'm working on
 
-> **CareerLens AI** — an NLP pipeline that matches resumes to job descriptions with ~85% accuracy.  
-> Not just cosine similarity. A 59-node ontology graph + Phi-3 Mini with Chain-of-Thought + SBERT embeddings.  
+> **AI Resume Intelligence System** — NLP pipeline that scores resume-to-JD fit using semantic AI.  
+> 9.1% improvement over keyword tools like Jobscan. 59-node ontology graph. SBERT + spaCy + NetworkX.  
 > Paper-in-progress for IEEE/Springer.
 
 ---
@@ -43,21 +33,33 @@
 ![Framer Motion](https://img.shields.io/badge/framer_motion-0055FF?style=flat-square&logo=framer&logoColor=white)
 ![GSAP](https://img.shields.io/badge/gsap-88CE02?style=flat-square&logo=greensock&logoColor=black)
 
-**backend & ML**
+**backend**
 
-![FastAPI](https://img.shields.io/badge/fastapi-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/express-000000?style=flat-square&logo=express&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/mongodb-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 **AI/ML**
 
-![HuggingFace](https://img.shields.io/badge/huggingface-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![SBERT](https://img.shields.io/badge/sentence_transformers-FF6F00?style=flat-square&logo=pytorch&logoColor=white)
+![SBERT](https://img.shields.io/badge/sbert-FF6F00?style=flat-square&logo=pytorch&logoColor=white)
+![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![NetworkX](https://img.shields.io/badge/networkx-013243?style=flat-square&logo=python&logoColor=white)
+![Gemini API](https://img.shields.io/badge/gemini_api-4285F4?style=flat-square&logo=google&logoColor=white)
 
 </div>
+
+---
+
+## 💼 experience
+
+**Web Developer Intern** · XpertStim IT Services Pvt. Ltd. · *May 2025 – Jul 2025 · Remote*
+
+- Sole frontend dev on a Tours & Travel product — built 8+ UI sections (hero, itinerary cards, booking flow) from scratch
+- Built reusable component library with Framer Motion animations; pixel-perfect across mobile, tablet, desktop
+- Stack: React.js, Tailwind CSS
 
 ---
 
@@ -67,18 +69,33 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [CareerLens AI](https://github.com/Sagar-024/careerlens)
-AI-powered resume ↔ JD matching engine
+### 🧠 [AI Resume Intelligence System](https://github.com/Sagar-024/careerlens)
+Semantic resume ↔ JD matching — not just keyword overlap
 
-- **6-stage async NLP pipeline** — parse → extract → embed → graph → score → explain
-- **59-node ontology graph** for skill transferability (NetworkX DiGraph)
-- **Phi-3 Mini + CoT prompting** for dynamic weight generation
-- **SHAP-style XAI** — tells you *why* you matched or didn't
-- ~85% accuracy vs SBERT's 70-75% baseline
+- **6-stage NLP pipeline** — parse → extract → embed → graph → score → explain
+- **Implicit skill recovery** surfaces 25% more skills from experience bullets
+- **9.1% accuracy gain** over keyword tools like Jobscan via SBERT semantic matching
+- **59-node ontology graph** with 2-hop transferability (e.g. AWS → Azure) adds 5.1% more
+- Dynamic weight allocation: same resume scored differently for startup vs research-lab JDs
 
-`FastAPI` `SBERT` `Next.js 14` `PostgreSQL` `Prisma`
+`Python` `SBERT` `spaCy` `NetworkX` `scikit-learn` `ReportLab`
 
 </td>
+<td width="50%" valign="top">
+
+### ✈️ [Nexa AI](https://github.com/Sagar-024/nexa) · [live ↗](https://nexa0ai.netlify.app)
+AI trip planner powered by Gemini API
+
+- Generates top-10 personalised recommendations + custom day-wise itinerary from user preferences
+- Smart destination-suggestion engine
+- Fully responsive UI, smooth UX across all viewports
+- Deployed on Vercel
+
+`React` `Next.js` `Gemini API` `Tailwind CSS`
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🍲 [EatHere](https://github.com/Sagar-024/eathere)
@@ -92,21 +109,20 @@ Location-based food discovery app
 `React 19` `Express` `MongoDB` `Geoapify API`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
-### ✈️ [Nexa (DreamTrip)](https://github.com/Sagar-024/nexa) · [live ↗](https://nexa0ai.netlify.app)
-Travel recommendations powered by Gemini API
+### 💼 [Job Board App](https://github.com/Sagar-024/job-board)
+Full-stack MERN job board
 
-- Personalized trip suggestions + bucket list builder
-- JWT auth, full MERN stack
-- Smooth GSAP + Framer Motion animations
-- Live & deployed
+- Job posting + application tracking dashboards
+- RESTful API with JWT role-based auth
+- Secure multi-user sessions
 
-`React` `Vite` `Node.js` `MongoDB` `Gemini API`
+`React` `Node.js` `Express.js` `MongoDB` `JWT`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🎮 [ValoCoach Dashboard](https://github.com/Sagar-024/valocoach)
@@ -120,8 +136,6 @@ Valorant player analytics dashboard
 `Next.js 15` `TypeScript` `Recharts` `Framer Motion`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 👔 [HRMS Lite](https://github.com/Sagar-024/hrms-lite)
@@ -135,44 +149,14 @@ Full-stack HR management system
 `React` `Zustand` `Express` `MongoDB`
 
 </td>
-<td width="50%" valign="top">
-
-### 🌍 [NextTrip](https://nexttrip024.netlify.app)
-Tours & travel landing page
-
-- Hero section with background video
-- GSAP ScrollTrigger animations
-- Filterable gallery: Domestic / International / Group
-- SEO-ready, fully responsive, live on Netlify
-
-`React.js` `GSAP` `Tailwind CSS`
-
-</td>
 </tr>
 </table>
 
 ---
 
-## 📊 github stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Sagar-024&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sagar-024&layout=compact&theme=github_dark&hide_border=true&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Sagar-024&theme=github-dark-blue&hide_border=true)
-
-</div>
-
----
-
 ## 🤝 open to work
 
-I'm a final-year CS student (graduating May 2026) actively looking for **frontend or full-stack roles at startups**.
+Final-year CS student (graduating May 2026, GPA 8.4) actively looking for **frontend or full-stack roles at startups**.
 
 I don't just apply — I build. If you want someone to come in, ship fast, and care about the product, let's talk.
 
