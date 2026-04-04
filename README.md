@@ -4,7 +4,6 @@
 
 <p><em>building things at the intersection of AI and frontend — one clean component at a time</em></p>
 
-[![Portfolio](https://img.shields.io/badge/portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nexa0ai.netlify.app)
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sagar-kharal)
 [![Email](https://img.shields.io/badge/email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sagarkharal024@gmail.com)
 
