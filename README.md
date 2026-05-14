@@ -13,9 +13,8 @@
 
 ## 🔭 what i'm working on
 
-> **AI Resume Intelligence System** — NLP pipeline that scores resume-to-JD fit using semantic AI.  
-> 9.1% improvement over keyword tools like Jobscan. 59-node ontology graph. SBERT + spaCy + NetworkX.  
-> Paper-in-progress for IEEE/Springer.
+> **Repatch | Autonomous Engineering Agent** — A test-driven debugging agent that authors its own reproduction tests, applies surgical fixes, and generates diff-grounded PR narratives.  
+> **100% autonomous bug lifecycle**. Built-in "Inviolable Loop" for empirical verification. Semantic Path Grounding to eliminate hallucinations.
 
 ---
 
@@ -137,15 +136,15 @@ Valorant player analytics dashboard
 </td>
 <td width="50%" valign="top">
 
-### 👔 [HRMS Lite](https://github.com/Sagar-024/hrms-lite)
-Full-stack HR management system
+### 🤖 [Repatch](https://github.com/Sagar-024/Repatch)
+Autonomous Engineering Agent - "Junior Dev in a Box"
 
-- Employee management: Add / View / Delete
-- Attendance tracking with logs & filtering
-- Real-time dashboard metrics
-- Premium custom design system
+- **Empirical TDD**: Authoring reproduction tests before any code modification.
+- **Inviolable Loop**: State-machine orchestration for verifiable bug fixes.
+- **Semantic Grounding**: Eliminating hallucinations via codebase path indexing.
+- **Sandboxed Execution**: Ephemeral OCI-compliant environments for verification.
 
-`React` `Zustand` `Express` `MongoDB`
+`TypeScript` `Node.js` `Docker` `Nixpacks` `Git` `LLM`
 
 </td>
 </tr>
