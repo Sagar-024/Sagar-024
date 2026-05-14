@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>hey, i'm sagar 👋</h1>
+<h1>hey, i'm sagar</h1>
 
 <p><em>building things at the intersection of AI and frontend — one clean component at a time</em></p>
 
@@ -11,14 +11,14 @@
 
 ---
 
-## 🔭 what i'm working on
+## current focus
 
 > **Repatch | Autonomous Engineering Agent** — A test-driven debugging agent that authors its own reproduction tests, applies surgical fixes, and generates diff-grounded PR narratives.  
 > **100% autonomous bug lifecycle**. Built-in "Inviolable Loop" for empirical verification. Semantic Path Grounding to eliminate hallucinations.
 
 ---
 
-## 🧠 the stack
+## tech stack
 
 <div align="center">
 
@@ -51,7 +51,7 @@
 
 ---
 
-## 💼 experience
+## experience
 
 **Web Developer Intern** · XpertStim IT Services Pvt. Ltd. · *May 2025 – Jul 2025 · Remote*
 
@@ -61,13 +61,26 @@
 
 ---
 
-## 🚀 featured projects
+## featured projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [AI Resume Intelligence System](https://github.com/Sagar-024/careerlens)
+### [Repatch](https://github.com/Sagar-024/Repatch)
+Autonomous Engineering Agent - "Junior Dev in a Box"
+
+- **Empirical TDD**: Authoring reproduction tests before any code modification.
+- **Inviolable Loop**: State-machine orchestration for verifiable bug fixes.
+- **Semantic Grounding**: Eliminating hallucinations via codebase path indexing.
+- **Sandboxed Execution**: Ephemeral OCI-compliant environments for verification.
+
+`TypeScript` `Node.js` `Docker` `Nixpacks` `Git` `LLM`
+
+</td>
+<td width="50%" valign="top">
+
+### [AI Resume Intelligence System](https://github.com/Sagar-024/careerlens)
 Semantic resume ↔ JD matching — not just keyword overlap
 
 - **6-stage NLP pipeline** — parse → extract → embed → graph → score → explain
@@ -79,9 +92,11 @@ Semantic resume ↔ JD matching — not just keyword overlap
 `Python` `SBERT` `spaCy` `NetworkX` `scikit-learn` `ReportLab`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
-### ✈️ [Nexa AI](https://github.com/Sagar-024/nexa) · [live ↗](https://nexa0ai.netlify.app)
+### [Nexa AI](https://github.com/Sagar-024/nexa) · [live ↗](https://nexa0ai.netlify.app)
 AI trip planner powered by Gemini API
 
 - Generates top-10 personalised recommendations + custom day-wise itinerary from user preferences
@@ -92,11 +107,9 @@ AI trip planner powered by Gemini API
 `React` `Next.js` `Gemini API` `Tailwind CSS`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
-### 🍲 [EatHere](https://github.com/Sagar-024/eathere)
+### [EatHere](https://github.com/Sagar-024/eathere)
 Location-based food discovery app
 
 - Find restaurants by **lat/long** via `POST /api/v1/foodspots`
@@ -107,9 +120,11 @@ Location-based food discovery app
 `React 19` `Express` `MongoDB` `Geoapify API`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
-### 💼 [Job Board App](https://github.com/Sagar-024/job-board)
+### [Job Board App](https://github.com/Sagar-024/job-board)
 Full-stack MERN job board
 
 - Job posting + application tracking dashboards
@@ -119,11 +134,9 @@ Full-stack MERN job board
 `React` `Node.js` `Express.js` `MongoDB` `JWT`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
-### 🎮 [ValoCoach Dashboard](https://github.com/Sagar-024/valocoach)
+### [ValoCoach Dashboard](https://github.com/Sagar-024/valocoach)
 Valorant player analytics dashboard
 
 - K/D ratio, headshot %, combat score — all animated
@@ -134,25 +147,12 @@ Valorant player analytics dashboard
 `Next.js 15` `TypeScript` `Recharts` `Framer Motion`
 
 </td>
-<td width="50%" valign="top">
-
-### 🤖 [Repatch](https://github.com/Sagar-024/Repatch)
-Autonomous Engineering Agent - "Junior Dev in a Box"
-
-- **Empirical TDD**: Authoring reproduction tests before any code modification.
-- **Inviolable Loop**: State-machine orchestration for verifiable bug fixes.
-- **Semantic Grounding**: Eliminating hallucinations via codebase path indexing.
-- **Sandboxed Execution**: Ephemeral OCI-compliant environments for verification.
-
-`TypeScript` `Node.js` `Docker` `Nixpacks` `Git` `LLM`
-
-</td>
 </tr>
 </table>
 
 ---
 
-## 🤝 open to work
+## open to work
 
 Final-year CS student (graduating May 2026, GPA 8.4) actively looking for **frontend or full-stack roles at startups**.
 
