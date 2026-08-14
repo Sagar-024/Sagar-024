@@ -1,6 +1,6 @@
-# Hi, I'm Sagar ���
+# Hi, I'm Sagar
 
-���� **Remote (India)** | ��� **Agent infra & evaluation engineer** | ��� **Final-year CS @ GPA 8.4**
+**Remote (India)** | **Agent infra & evaluation engineer** | **Final-year CS @ GPA 8.4**
 
 Building **deterministic agent loops**, **evaluation harnesses**, and **zero-LLM verification** — the boring infrastructure that makes AI agents actually reliable.
 
@@ -16,12 +16,12 @@ Building **deterministic agent loops**, **evaluation harnesses**, and **zero-LLM
 
 ## Start Here
 
-- ��� **[Repatch](https://github.com/Sagar-024/Repatch)** (★1) — Autonomous engineering agent: reproduces bugs, authors tests, applies fixes, opens PRs. 100% autonomous bug lifecycle. Inviolable Loop + Semantic Path Grounding.
-- ��� **[vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval)** — Deterministic evaluation harness for scheduling agents. 10 invariants, 500+ seeded scenarios, byte-identical replay. Proves cascade-awareness eliminates 888 double-bookings & 841 priority violations.
-- �� **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)** — Zero-LLM structural verification for AI claims. 4 ordered deterministic checks (citation → section → retrieval → quote). Catches "3 years → 5 years" hallucinations without a single model call.
-- ��� **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** (★1) — 6-stage semantic resume ↔ JD matching. SBERT + 59-node skill ontology + 2-hop transferability + SHAP explainability. 25% more skills recovered vs keyword baselines.
-- ��� **[Nexa](https://github.com/Sagar-024/Nexa)** (★1) · [Live ↗](https://nexa0ai.netlify.app) — AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides.
-- ��� **[ValoCoach Dashboard](https://github.com/Sagar-024/ValoCoach-Player-Dashboard)** (★1) — Valorant analytics: K/D, HS%, combat score animated. Dark/light theme (no flash bug). Recharts + Framer Motion.
+- **Repatch** (★1) — Autonomous engineering agent: reproduces bugs, authors tests, applies fixes, opens PRs. 100% autonomous bug lifecycle. Inviolable Loop + Semantic Path Grounding.
+- **vela-cascade-eval** — Deterministic evaluation harness for scheduling agents. 10 invariants, 500+ seeded scenarios, byte-identical replay. Proves cascade-awareness eliminates 888 double-bookings & 841 priority violations.
+- **groundedness-engine** — Zero-LLM structural verification for AI claims. 4 ordered deterministic checks (citation → section → retrieval → quote). Catches "3 years → 5 years" hallucinations without a single model call.
+- **CAREERLENS** (★1) — 6-stage semantic resume ↔ JD matching. SBERT + 59-node skill ontology + 2-hop transferability + SHAP explainability. 25% more skills recovered vs keyword baselines.
+- **Nexa** (★1) · [Live](https://nexa0ai.netlify.app) — AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides.
+- **ValoCoach Dashboard** (★1) — Valorant analytics: K/D, HS%, combat score animated. Dark/light theme (no flash bug). Recharts + Framer Motion.
 
 ---
 
@@ -31,26 +31,26 @@ Building **deterministic agent loops**, **evaluation harnesses**, and **zero-LLM
 
 | Project | What It Does | Key Signal |
 |---------|--------------|------------|
-| **[Repatch](https://github.com/Sagar-024/Repatch)** | Autonomous bug-fixing agent (TDD loop, sandboxed, multi-LLM) | State-machine orchestration, Map of Truth, Nixpacks/Docker |
-| **[vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval)** | Evaluation harness for scheduling cascade detection | 10 invariants, 713 conflicts, deterministic mulberry32 RNG |
-| **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)** | Structural claim verification (zero-LLM) | 4 ordered checks, retrieval tracing, standalone npm pkg |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | Self-improving agent with skill learning loop | Contributor — TUI, MCP, cron, multi-platform gateway |
+| **Repatch** | Autonomous bug-fixing agent (TDD loop, sandboxed, multi-LLM) | State-machine orchestration, Map of Truth, Nixpacks/Docker |
+| **vela-cascade-eval** | Evaluation harness for scheduling cascade detection | 10 invariants, 713 conflicts, deterministic mulberry32 RNG |
+| **groundedness-engine** | Structural claim verification (zero-LLM) | 4 ordered checks, retrieval tracing, standalone npm pkg |
+| **hermes-agent** | Self-improving agent with skill learning loop | Contributor — TUI, MCP, cron, multi-platform gateway |
 
 ### Semantic Matching & NLP
 
 | Project | What It Does | Key Signal |
 |---------|--------------|------------|
-| **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** | Resume ↔ JD semantic matching pipeline | 6 stages, SBERT, NetworkX ontology, dynamic weights |
-| **[ai-daily-brief-web](https://github.com/Sagar-024/ai-daily-brief-web)** | AI-curated daily technical briefings | Next.js, automated content pipeline |
+| **CAREERLENS** | Resume ↔ JD semantic matching pipeline | 6 stages, SBERT, NetworkX ontology, dynamic weights |
+| **ai-daily-brief-web** | AI-curated daily technical briefings | Next.js, automated content pipeline |
 
 ### Production Apps & Dashboards
 
 | Project | What It Does | Stack |
 |---------|--------------|-------|
-| **[Nexa](https://github.com/Sagar-024/Nexa)** | AI trip planner — personalized itineraries | Next.js, Gemini API, Tailwind, Framer Motion |
-| **[ValoCoach](https://github.com/Sagar-024/ValoCoach-Player-Dashboard)** | Valorant player analytics dashboard | Next.js 15, Recharts, TypeScript |
-| **[EatHere](https://github.com/Sagar-024/Eathere)** | Location-based food discovery | React 19, Express, MongoDB, Geoapify |
-| **[Job Board](https://github.com/Sagar-024/Job-board-web-app)** | Full-stack MERN job board | React, Node, Express, MongoDB, JWT |
+| **Nexa** | AI trip planner — personalized itineraries | Next.js, Gemini API, Tailwind, Framer Motion |
+| **ValoCoach** | Valorant player analytics dashboard | Next.js 15, Recharts, TypeScript |
+| **EatHere** | Location-based food discovery | React 19, Express, MongoDB, Geoapify |
+| **Job Board** | Full-stack MERN job board | React, Node, Express, MongoDB, JWT |
 
 ---
 
@@ -109,7 +109,7 @@ I build tools where the verification *is* the product. If you can't replay it by
 ---
 
 <details>
-<summary>���� Random Facts</summary>
+<summary>Random Facts</summary>
 
 - Run 3-5 agent instances concurrently for eval (Repatch, vela-cascade-eval, groundedness-engine all at once)
 - Obsessed with seeded RNG determinism — `mulberry32` > `Math.random()` every time
@@ -122,5 +122,5 @@ I build tools where the verification *is* the product. If you can't replay it by
 ---
 
 <div align="center">
-<sub>if you made it this far, you might as well just reach out ���</sub>
+<sub>if you made it this far, you might as well just reach out</sub>
 </div>
