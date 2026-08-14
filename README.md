@@ -1,195 +1,123 @@
-<div align="center">
+# Hi, I'm Sagar ���
 
-<h1>hey, i'm sagar</h1>
+���� **Remote (India)** | ��� **Agent infra & evaluation engineer** | ��� **Final-year CS @ GPA 8.4**
 
-<p><em>building autonomous agents & evaluation infrastructure at the intersection of AI and systems — one deterministic loop at a time</em></p>
+Building **deterministic agent loops**, **evaluation harnesses**, and **zero-LLM verification** — the boring infrastructure that makes AI agents actually reliable.
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sagar-kharal)
-[![Email](https://img.shields.io/badge/email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sagarkharal024@gmail.com)
-[![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sagar-024)
-
-</div>
-
----
-
-## currently shipping
-
-> **Repatch** — Autonomous engineering agent that reproduces bugs, authors tests, applies fixes, and opens PRs. 100% autonomous bug lifecycle. Built-in "Inviolable Loop" for empirical verification. Semantic Path Grounding to eliminate hallucinations. [`TypeScript` `Docker` `Nixpacks` `LLM Tool Calling`](https://github.com/Sagar-024/Repatch)
-
-> **vela-cascade-eval** — Deterministic evaluation harness for scheduling agents. Two agents, 10 machine-checkable invariants, 500+ seeded scenarios, byte-identical determinism. Proves cascade-aware architecture eliminates 888 double-bookings & 841 priority violations. [`TypeScript` `Vitest` `Property-Based Testing`](https://github.com/Sagar-024/vela-cascade-eval)
-
-> **groundedness-engine** — Zero-LLM structural verification for AI claims. 4 ordered deterministic checks (citation → section → retrieval → quote match). Catches "3 years → 5 years" hallucinations without a single model call. [`TypeScript` `Deterministic Verification`](https://github.com/Sagar-024/groundedness-engine)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
 ---
 
-## tech stack
+## Start Here
 
-<div align="center">
-
-**languages & runtimes**
-
-![TypeScript](https://img.shields.io/badge/typescript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-
-**frontend & full-stack**
-
-![Next.js](https://img.shields.io/badge/next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/react-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/tailwindcss-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/framer_motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-
-**AI / ML / evaluation**
-
-![SBERT](https://img.shields.io/badge/sbert-FF6F00?style=flat-square&logo=pytorch&logoColor=white)
-![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![NetworkX](https://img.shields.io/badge/networkx-013243?style=flat-square&logo=python&logoColor=white)
-![Gemini API](https://img.shields.io/badge/gemini_api-4285F4?style=flat-square&logo=google&logoColor=white)
-
-**infrastructure & tooling**
-
-![Docker](https://img.shields.io/badge/docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgresql-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/mongodb-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Git](https://img.shields.io/badge/git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github_actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-
-</div>
+- ��� **[Repatch](https://github.com/Sagar-024/Repatch)** (★1) — Autonomous engineering agent: reproduces bugs, authors tests, applies fixes, opens PRs. 100% autonomous bug lifecycle. Inviolable Loop + Semantic Path Grounding.
+- ��� **[vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval)** — Deterministic evaluation harness for scheduling agents. 10 invariants, 500+ seeded scenarios, byte-identical replay. Proves cascade-awareness eliminates 888 double-bookings & 841 priority violations.
+- �� **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)** — Zero-LLM structural verification for AI claims. 4 ordered deterministic checks (citation → section → retrieval → quote). Catches "3 years → 5 years" hallucinations without a single model call.
+- ��� **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** (★1) — 6-stage semantic resume ↔ JD matching. SBERT + 59-node skill ontology + 2-hop transferability + SHAP explainability. 25% more skills recovered vs keyword baselines.
+- ��� **[Nexa](https://github.com/Sagar-024/Nexa)** (★1) · [Live ↗](https://nexa0ai.netlify.app) — AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides.
+- ��� **[ValoCoach Dashboard](https://github.com/Sagar-024/ValoCoach-Player-Dashboard)** (★1) — Valorant analytics: K/D, HS%, combat score animated. Dark/light theme (no flash bug). Recharts + Framer Motion.
 
 ---
 
-## featured projects
+## Current Focus
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### Agent Infrastructure & Evaluation
 
-### [Repatch](https://github.com/Sagar-024/Repatch) ���
-**Autonomous Engineering Agent — "Junior Dev in a Box"**
+| Project | What It Does | Key Signal |
+|---------|--------------|------------|
+| **[Repatch](https://github.com/Sagar-024/Repatch)** | Autonomous bug-fixing agent (TDD loop, sandboxed, multi-LLM) | State-machine orchestration, Map of Truth, Nixpacks/Docker |
+| **[vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval)** | Evaluation harness for scheduling cascade detection | 10 invariants, 713 conflicts, deterministic mulberry32 RNG |
+| **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)** | Structural claim verification (zero-LLM) | 4 ordered checks, retrieval tracing, standalone npm pkg |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | Self-improving agent with skill learning loop | Contributor — TUI, MCP, cron, multi-platform gateway |
 
-- **Empirical TDD**: Authors reproduction tests before any code modification
-- **Inviolable Loop**: State-machine orchestration (UNDERSTAND → EXPLORE → REPRODUCE → PLAN → EXECUTE → VERIFY → SUBMIT) with backtracking
-- **Semantic Grounding**: Map of Truth file-tree indexing eliminates path hallucinations
-- **Sandboxed Execution**: Ephemeral OCI-compliant environments via Nixpacks + Docker
-- **Multi-LLM**: OpenAI, Anthropic, Gemini, Mimo — strategy pattern for inference
+### Semantic Matching & NLP
 
-`TypeScript` `Node.js` `Docker` `Nixpacks` `Git` `LLM Tool Calling` `State Machines`
+| Project | What It Does | Key Signal |
+|---------|--------------|------------|
+| **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** | Resume ↔ JD semantic matching pipeline | 6 stages, SBERT, NetworkX ontology, dynamic weights |
+| **[ai-daily-brief-web](https://github.com/Sagar-024/ai-daily-brief-web)** | AI-curated daily technical briefings | Next.js, automated content pipeline |
 
-</td>
-<td width="50%" valign="top">
+### Production Apps & Dashboards
 
-### [vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval)
-**Deterministic Scheduling Agent Evaluation Harness**
-
-- **Two agents, one clean diff**: NaiveAgent (baseline) vs CascadeAwareAgent (global view) — identical except for cascade awareness
-- **10 machine-checkable invariants**: No double-booking, priority consistency, invalidation propagation, determinism (byte-identical replay)
-- **500+ seeded scenarios**: 9 cascade classes, 713 conflicts generated, deterministic via mulberry32 RNG
-- **Honest failure model**: Reference agent shows 121 recovery failures (true resource exhaustion), not weakened assertions
-
-`TypeScript` `Vitest` `Property-Based Testing` `State Machines` `Evaluation Infrastructure`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [groundedness-engine](https://github.com/Sagar-024/groundedness-engine)
-**Deterministic Structural Verification for AI Claims**
-
-- **Zero LLM calls** — all checks are string-based, deterministic, auditable
-- **4 ordered checks**: citation_present → section_exists → section_retrieved → quote_matched
-- **Catches hallucinations**: "3 years" → "5 years" quote mismatch detected without semantic reasoning
-- **Retrieval tracing**: Detects when AI cites a section it never actually saw
-- **Standalone npm package** — import into any pipeline (legal, medical, financial, technical)
-
-`TypeScript` `Deterministic Verification` `Zero-LLM Architecture`
-
-</td>
-<td width="50%" valign="top">
-
-### [CAREERLENS](https://github.com/Sagar-024/CAREERLENS) ���
-**Asynchronous Semantic Resume ↔ JD Matching Engine**
-
-- **6-stage async pipeline**: Parse → Extract → Embed → Graph → Score → Explain
-- **SBERT bi-encoder** (`all-MiniLM-L6-v2`) + cosine similarity in 384-dim space
-- **59-node skill ontology** (NetworkX DiGraph) with 2-hop transferability (Docker → Kubernetes)
-- **Implicit skill recovery**: 25% more skills surfaced from experience bullets vs keyword baselines
-- **Dynamic weight allocation**: Same resume scored differently for startup vs research-lab JDs
-- **PDF report generation** with SHAP-style explainability & interview intelligence
-
-`Next.js 14` `FastAPI` `Python` `SBERT` `spaCy` `NetworkX` `PostgreSQL` `Prisma`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Nexa](https://github.com/Sagar-024/Nexa) ��� · [Live ↗](https://nexa0ai.netlify.app)
-**AI Trip Planner — Personalized Itineraries from Preferences**
-
-- **Gemini API** powered: top-10 recommendations + custom day-wise itineraries
-- **Smart destination engine** learns preferences, cuts through generic guides
-- **Fully responsive** with Framer Motion animations, mobile-first
-- **Deployed on Vercel** — production-grade frontend
-
-`React` `Next.js` `Gemini API` `Tailwind CSS` `Framer Motion`
-
-</td>
-<td width="50%" valign="top">
-
-### [ValoCoach Dashboard](https://github.com/Sagar-024/ValoCoach-Player-Dashboard) ���
-**Valorant Player Analytics Dashboard**
-
-- **Real-time stats**: K/D, headshot %, combat score — all animated
-- **Match history** with Won/Lost/Draw filtering
-- **Dark/Light theme** (no flash bug — SSR hydration solved)
-- **Data viz with Recharts**, Framer Motion polish
-
-`Next.js 15` `TypeScript` `Recharts` `Framer Motion` `Tailwind CSS`
-
-</td>
-</tr>
-</table>
+| Project | What It Does | Stack |
+|---------|--------------|-------|
+| **[Nexa](https://github.com/Sagar-024/Nexa)** | AI trip planner — personalized itineraries | Next.js, Gemini API, Tailwind, Framer Motion |
+| **[ValoCoach](https://github.com/Sagar-024/ValoCoach-Player-Dashboard)** | Valorant player analytics dashboard | Next.js 15, Recharts, TypeScript |
+| **[EatHere](https://github.com/Sagar-024/Eathere)** | Location-based food discovery | React 19, Express, MongoDB, Geoapify |
+| **[Job Board](https://github.com/Sagar-024/Job-board-web-app)** | Full-stack MERN job board | React, Node, Express, MongoDB, JWT |
 
 ---
 
-## what i care about
+## GitHub Activity
 
-| principle | what it means in practice |
-|-----------|---------------------------|
-| **determinism over vibes** | Seeded RNG, byte-identical replay, zero-flaky tests, invariant-based evaluation |
-| **empirical verification** | Every claim backed by reproducible artifact (test, trace, benchmark, report) |
-| **systems thinking** | Agents as state machines, not prompt chains; orchestration > prompting |
-| **honest failure models** | Recovery exhaustion �� bug; double-booking �� "edge case" — it's a violated invariant |
-| **zero-LLM verification** | Structural checks first, semantic reasoning layered on top, never the reverse |
+![GitHub Contribution Graph](https://github-readme-stats.vercel.app/api?username=Sagar-024&show_icons=true&hide_border=true&theme=default&count_private=true&include_all_commits=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sagar-024&layout=compact&hide_border=true&theme=default&langs_count=8)
 
 ---
 
-## experience
+## What I'm Doing
 
-**Web Developer Intern** · XpertStim IT Services Pvt. Ltd. · *May 2025 – Jul 2025 · Remote*
-
-- Sole frontend dev on a Tours & Travel product — built 8+ UI sections (hero, itinerary cards, booking flow) from scratch
-- Built reusable component library with Framer Motion animations; pixel-perfect across mobile, tablet, desktop
-- Stack: React.js, Tailwind CSS
+- **Shipping agent infra** — Repatch (autonomous bug fixing), vela-cascade-eval (deterministic eval), groundedness-engine (zero-LLM verification)
+- **Writing evaluation-first** — Every claim backed by reproducible artifact: invariant trace, benchmark, seeded replay, PDF report
+- **Learning in public** — Exploring how determinism, verification, and honest failure models change AI engineering
+- **Open to roles** — Frontend/full-stack at startups building agent infra, eval tooling, developer tools, high-trust systems
 
 ---
 
-## open to work
+## Latest Writings & Talks
 
-**Final-year CS student** (graduating May 2026, GPA 8.4) actively looking for **frontend or full-stack roles at startups** — especially teams building:
+<!-- BLOG-POST-LIST:START -->
+- [Deterministic Agent Evaluation: Why Invariants Beat Vibes](https://github.com/Sagar-024/vela-cascade-eval/blob/main/results/analysis.md)
+- [Zero-LLM Verification: Catching Hallucinations Without Models](https://github.com/Sagar-024/groundedness-engine)
+- [Semantic Resume Matching: Beyond Keyword Overlap](https://github.com/Sagar-024/CAREERLENS)
+<!-- BLOG-POST-LIST:END -->
 
-- AI agent infrastructure / evaluation / observability
-- Developer tooling (CLI, IDE extensions, CI/CD)
-- High-trust systems where determinism & verification matter
+---
 
-I don't just apply — I build. If you want someone to come in, ship fast, and care about the product, let's talk.
+## Recognition & Media
 
-Open to **2–3 week trial arrangements**. No bureaucracy needed.
+- **Repatch** — Autonomous engineering agent with empirical TDD loop and sandboxed verification
+- **vela-cascade-eval** — Honest failure model: 121 recovery failures (true resource exhaustion), not weakened assertions
+- **groundedness-engine** — Structural verification layer designed to sit below semantic evaluation
+- **CAREERLENS** — 9.1% accuracy gain over keyword tools via SBERT + ontology transferability
+- **Finalist** — Task API Take-Home Assignment (production-grade MERN app)
 
-���� **[shoot me an email](mailto:sagarkharal024@gmail.com)** or find me on **[LinkedIn](https://linkedin.com/in/sagar-kharal)**
+---
+
+## Philosophy
+
+> **"Determinism over vibes. Empirical verification over claims. Honest failure models over hidden edge cases."**
+
+I build tools where the verification *is* the product. If you can't replay it byte-for-byte, it's not evaluated — it's hoped for.
+
+---
+
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/-Sagar_Kharal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sagar-kharal)
+[![Email](https://img.shields.io/badge/-sagarkharal024@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sagarkharal024@gmail.com)
+[![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sagar-024)
+[![X](https://img.shields.io/badge/-@sagarkharal-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/sagarkharal)
+
+---
+
+<details>
+<summary>���� Random Facts</summary>
+
+- Run 3-5 agent instances concurrently for eval (Repatch, vela-cascade-eval, groundedness-engine all at once)
+- Obsessed with seeded RNG determinism — `mulberry32` > `Math.random()` every time
+- Powered by filter coffee & late-night invariant debugging
+- "It works on my machine" → "It works in the sandbox with Nixpacks detection"
+- Will genuinely do a 2-week trial. No bureaucracy. Ship or don't.
+
+</details>
 
 ---
 
