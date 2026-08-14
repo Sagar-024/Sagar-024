@@ -1,8 +1,8 @@
 # Hi, I'm Sagar
 
-**Remote (India)** | **Agent infra & evaluation engineer** | **Final-year CS @ GPA 8.4**
+**Remote (India)** | **AI Agentic Software Engineer · Full-Stack** | **B.Tech Computer Science Graduate**
 
-Building **deterministic agent loops**, **evaluation harnesses**, and **zero-LLM verification** — the boring infrastructure that makes AI agents actually reliable.
+Building **AI agents, agentic workflows, full-stack products, and deterministic evaluation systems** — from orchestration and tool calling to verification, backend infrastructure, and production interfaces.
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -16,39 +16,40 @@ Building **deterministic agent loops**, **evaluation harnesses**, and **zero-LLM
 
 ## Start Here
 
-- **Repatch** (★1) — Autonomous engineering agent: reproduces bugs, authors tests, applies fixes, opens PRs. 100% autonomous bug lifecycle. Inviolable Loop + Semantic Path Grounding.
-- **vela-cascade-eval** — Deterministic evaluation harness for scheduling agents. 10 invariants, 500+ seeded scenarios, byte-identical replay. Proves cascade-awareness eliminates 888 double-bookings & 841 priority violations.
-- **groundedness-engine** — Zero-LLM structural verification for AI claims. 4 ordered deterministic checks (citation → section → retrieval → quote). Catches "3 years → 5 years" hallucinations without a single model call.
-- **CAREERLENS** (★1) — 6-stage semantic resume ↔ JD matching. SBERT + 59-node skill ontology + 2-hop transferability + SHAP explainability. 25% more skills recovered vs keyword baselines.
-- **Nexa** (★1) · [Live](https://nexa0ai.netlify.app) — AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides.
-- **ValoCoach Dashboard** (★1) — Valorant analytics: K/D, HS%, combat score animated. Dark/light theme (no flash bug). Recharts + Framer Motion.
+- **Repatch** (★1) — Autonomous engineering agent: reproduces bugs, authors tests, applies fixes, opens PRs. 7-step state-machine orchestration (UNDERSTAND → EXPLORE → REPRODUCE → PLAN → EXECUTE → VERIFY → SUBMIT). Structured tool calling, Docker/Nixpacks sandboxing, Map of Truth / Semantic Path Grounding.
+- **vela-cascade-eval** — Deterministic evaluation harness for scheduling agents. 500+ seeded scenarios, 713 conflicts generated, 10 machine-checkable invariants, 1,000 determinism checks (byte-identical replay). Naive baseline: 888 double-bookings, 841 priority violations. Cascade-aware agent: zero safety violations, 121 recovery failures (true resource exhaustion).
+- **groundedness-engine** — Zero-LLM structural verification for AI claims. 4 ordered deterministic checks: citation present → section exists → section retrieved → quote matched. Catches "3 years → 5 years" hallucinations without a single model call. Standalone npm package.
+- **CAREERLENS** (★1) — 6-stage semantic resume ↔ JD matching pipeline. SBERT bi-encoder (all-MiniLM-L6-v2) + cosine similarity in 384-dim space. 59-node skill ontology (NetworkX DiGraph) with 2-hop transferability (e.g., Docker → Kubernetes). Implicit skill recovery surfaces 25% more skills vs keyword baselines. 9.1% accuracy gain over tools like Jobscan. Dynamic weight allocation per role type. SHAP-style explainability + PDF report generation.
+- **Nexa** (★1) · [Live](https://nexa0ai.netlify.app) — AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides. React/Next.js, Node/Express, Tailwind, Framer Motion.
+- **ValoCoach Dashboard** (★1) — Valorant player analytics: K/D, HS%, combat score animated. Dark/light theme (no flash bug — SSR hydration solved). Next.js 15, TypeScript, Recharts, Framer Motion.
 
 ---
 
 ## Current Focus
 
-### Agent Infrastructure & Evaluation
+### AI Agents & Agentic Systems
 
 | Project | What It Does | Key Signal |
-|---------|--------------|------------|
-| **Repatch** | Autonomous bug-fixing agent (TDD loop, sandboxed, multi-LLM) | State-machine orchestration, Map of Truth, Nixpacks/Docker |
-| **vela-cascade-eval** | Evaluation harness for scheduling cascade detection | 10 invariants, 713 conflicts, deterministic mulberry32 RNG |
-| **groundedness-engine** | Structural claim verification (zero-LLM) | 4 ordered checks, retrieval tracing, standalone npm pkg |
-| **hermes-agent** | Self-improving agent with skill learning loop | Contributor — TUI, MCP, cron, multi-platform gateway |
+|---|---|---|
+| **Repatch** | Autonomous bug-fixing agent | 7-step state-machine orchestration, structured tool calling, Docker/Nixpacks sandboxing, Map of Truth |
+| **vela-cascade-eval** | Deterministic evaluation harness | 10 invariants, 713 conflicts, seeded replay, honest failure model |
+| **groundedness-engine** | Structural claim verification | Zero-LLM deterministic checks, citation→section→retrieval→quote |
+| **hermes-agent** | Self-improving agent system | Contributor — TUI, MCP, cron, multi-platform gateway |
 
-### Semantic Matching & NLP
+### Evaluation & Verification
 
 | Project | What It Does | Key Signal |
-|---------|--------------|------------|
-| **CAREERLENS** | Resume ↔ JD semantic matching pipeline | 6 stages, SBERT, NetworkX ontology, dynamic weights |
-| **ai-daily-brief-web** | AI-curated daily technical briefings | Next.js, automated content pipeline |
+|---|---|---|
+| **vela-cascade-eval** | Deterministic evaluation harness | 500+ scenarios, 10 invariants, 1,000 determinism checks |
+| **groundedness-engine** | Zero-LLM structural verification | 4 ordered checks, retrieval tracing, standalone npm pkg |
+| **Repatch** | Empirical TDD loop | Reproduction tests authored before any fix, sandboxed verification |
 
-### Production Apps & Dashboards
+### Full-Stack & Product Engineering
 
 | Project | What It Does | Stack |
-|---------|--------------|-------|
+|---|---|---|
 | **Nexa** | AI trip planner — personalized itineraries | Next.js, Gemini API, Tailwind, Framer Motion |
-| **ValoCoach** | Valorant player analytics dashboard | Next.js 15, Recharts, TypeScript |
+| **ValoCoach** | Valorant player analytics dashboard | Next.js 15, TypeScript, Recharts, Framer Motion |
 | **EatHere** | Location-based food discovery | React 19, Express, MongoDB, Geoapify |
 | **Job Board** | Full-stack MERN job board | React, Node, Express, MongoDB, JWT |
 
@@ -64,10 +65,11 @@ Building **deterministic agent loops**, **evaluation harnesses**, and **zero-LLM
 
 ## What I'm Doing
 
-- **Shipping agent infra** — Repatch (autonomous bug fixing), vela-cascade-eval (deterministic eval), groundedness-engine (zero-LLM verification)
-- **Writing evaluation-first** — Every claim backed by reproducible artifact: invariant trace, benchmark, seeded replay, PDF report
-- **Learning in public** — Exploring how determinism, verification, and honest failure models change AI engineering
-- **Open to roles** — Frontend/full-stack at startups building agent infra, eval tooling, developer tools, high-trust systems
+- **Building AI agent systems** — autonomous engineering agents, orchestration, tool calling, verification, and agentic workflows
+- **Engineering evaluation-first** — deterministic experiments, invariants, seeded scenarios, replayable results, and honest failure models
+- **Building full-stack products** — React/Next.js, Node.js, Python, APIs, databases, deployment, and production interfaces
+- **Learning in public** — exploring how determinism, verification, and reliable failure handling can make AI systems more trustworthy
+- **Open to roles** — AI engineering, agentic software engineering, full-stack, backend, and early-stage startup roles
 
 ---
 
