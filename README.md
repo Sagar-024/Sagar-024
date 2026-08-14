@@ -1,8 +1,8 @@
 # Hi, I'm Sagar
 
-**Remote (India)** | **AI Agentic Software Engineer · Full-Stack** | **B.Tech Computer Science Graduate**
+**Remote (India)** | **AI Agentic Software Engineer · Full-Stack** | **B.Tech Computer Science Graduate (2026)**
 
-Building **AI agents, agentic workflows, full-stack products, and deterministic evaluation systems** — from orchestration and tool calling to verification, backend infrastructure, and production interfaces.
+I build autonomous agents that actually work — Repatch fixes bugs end-to-end, vela-cascade-eval proves scheduling agents correct with 10 invariants, groundedness-engine catches hallucinations without an LLM. Also ship full-stack products (Next.js, FastAPI, MERN) and semantic matching systems (SBERT, 59-node ontology).
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -67,8 +67,8 @@ Building **AI agents, agentic workflows, full-stack products, and deterministic 
 - **Building AI agent systems** — autonomous engineering agents, orchestration, tool calling, verification, and agentic workflows
 - **Engineering evaluation-first** — deterministic experiments, invariants, seeded scenarios, replayable results, and honest failure models
 - **Building full-stack products** — React/Next.js, Node.js, Python, APIs, databases, deployment, and production interfaces
-- **Learning in public** — exploring how determinism, verification, and reliable failure handling can make AI systems more trustworthy
-- **Open to roles** — AI engineering, agentic software engineering, full-stack, backend, and early-stage startup roles
+- **Learning in public** — exploring how determinism, verification, and reliable failure handling make AI systems trustworthy
+- **Open to roles** — AI engineering, agentic software engineering, full-stack, backend, early-stage startup roles
 
 ---
 
