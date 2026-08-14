@@ -21,7 +21,6 @@ Building **AI agents, agentic workflows, full-stack products, and deterministic 
 - **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)** — Zero-LLM structural verification for AI claims. 4 ordered deterministic checks: citation present → section exists → section retrieved → quote matched. Catches "3 years → 5 years" hallucinations without a single model call. Standalone npm package.
 - **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** (★1) — 6-stage semantic resume ↔ JD matching pipeline. SBERT bi-encoder (all-MiniLM-L6-v2) + cosine similarity in 384-dim space. 59-node skill ontology (NetworkX DiGraph) with 2-hop transferability (e.g., Docker → Kubernetes). Implicit skill recovery surfaces 25% more skills vs keyword baselines. 9.1% accuracy gain over tools like Jobscan. Dynamic weight allocation per role type. SHAP-style explainability + PDF report generation.
 - **[Nexa](https://github.com/Sagar-024/Nexa)** (★1) · [Live](https://nexa0ai.netlify.app) — AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides. React/Next.js, Node/Express, Tailwind, Framer Motion.
-- **[ValoCoach Dashboard](https://github.com/Sagar-024/ValoCoach-Player-Dashboard)** (★1) — Valorant player analytics: K/D, HS%, combat score animated. Dark/light theme (no flash bug — SSR hydration solved). Next.js 15, TypeScript, Recharts, Framer Motion.
 
 ---
 
@@ -49,7 +48,7 @@ Building **AI agents, agentic workflows, full-stack products, and deterministic 
 | Project | What It Does | Stack |
 |---|---|---|
 | **[Nexa](https://github.com/Sagar-024/Nexa)** | AI trip planner — personalized itineraries | Next.js, Gemini API, Tailwind, Framer Motion |
-| **[ValoCoach](https://github.com/Sagar-024/ValoCoach-Player-Dashboard)** | Valorant player analytics dashboard | Next.js 15, TypeScript, Recharts, Framer Motion |
+| **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** | Semantic resume ↔ JD matching | Next.js, FastAPI, SBERT, NetworkX, PostgreSQL |
 | **[EatHere](https://github.com/Sagar-024/Eathere)** | Location-based food discovery | React 19, Express, MongoDB, Geoapify |
 | **[Job Board](https://github.com/Sagar-024/Job-board-web-app)** | Full-stack MERN job board | React, Node, Express, MongoDB, JWT |
 
