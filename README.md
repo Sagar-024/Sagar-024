@@ -1,8 +1,8 @@
 # Hi, I'm Sagar
 
-**Remote (India)** | **AI Agentic Software Engineer · Full-Stack** | **B.Tech Computer Science Graduate (2026)**
+**Remote (India)** | **AI Agentic Software Engineer · Full-Stack** | **B.Tech Computer Science Graduate**
 
-I build autonomous agents that actually work — Repatch fixes bugs end-to-end, vela-cascade-eval proves scheduling agents correct with 10 invariants, groundedness-engine catches hallucinations without an LLM. Also ship full-stack products (Next.js, FastAPI, MERN) and semantic matching systems (SBERT, 59-node ontology).
+Building **AI agents, agentic workflows, full-stack products, and deterministic evaluation systems** — from orchestration and tool calling to verification, backend infrastructure, and production interfaces.
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
