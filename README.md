@@ -57,9 +57,9 @@ Building **AI agents, agentic workflows, full-stack products, and deterministic 
 
 ## GitHub Activity
 
-![GitHub Contribution Graph](https://github-readme-stats.vercel.app/api?username=Sagar-024&show_icons=true&hide_border=true&count_private=true&include_all_commits=true)
+![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sagar-024)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sagar-024&layout=compact&hide_border=true&langs_count=8)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sagar-024)
 
 ---
 
