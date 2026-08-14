@@ -106,7 +106,7 @@ I build tools where the verification *is* the product. If you can't replay it by
 [![LinkedIn](https://img.shields.io/badge/-Sagar_Kharal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sagar-kharal)
 [![Email](https://img.shields.io/badge/-sagarkharal024@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sagarkharal024@gmail.com)
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sagar-024)
-[![X](https://img.shields.io/badge/-@sagarkharal-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/sagarkharal)
+[![X](https://img.shields.io/badge/-@skharal4_s-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/skharal4_s)
 
 ---
 
