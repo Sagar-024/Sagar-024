@@ -3,7 +3,6 @@
 ## Currently
 
 </div>
-
 Top 5 PRs merged into [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow):
 
 - **#373** [Check the no-B-frame constraint in doctor and the encoder](https://github.com/Hebbian-Robotics/hflow/pull/373): enforce a video safety invariant that earlier code only trusted, closing a silent decode-loss path.
@@ -26,7 +25,6 @@ Issues I opened in the same window:
 ## Who I Am
 
 </div>
-
 - 22-year-old engineer currently contributing at [HFlow](https://github.com/Hebbian-Robotics/hflow), a YC-backed robotics data platform.
 - Merged 10 PRs in my first public week, including a LeRobot to MCAP converter and a silent NumPy data-corruption fix that passed unnoticed by the test suite.
 - Work reviewed by Kingston Kuan, co-founder of HFlow (YC S26), available as a reference.
@@ -42,7 +40,6 @@ Issues I opened in the same window:
 ## Projects I Built on the Way
 
 </div>
-
 - **[Repatch](https://github.com/Sagar-024/Repatch)** (★1): Autonomous engineering agent that reproduces bugs, authors tests, applies fixes, opens PRs. 7-step state-machine orchestration (UNDERSTAND → EXPLORE → REPRODUCE → PLAN → EXECUTE → VERIFY → SUBMIT). Structured tool calling, Docker/Nixpacks sandboxing, Map of Truth / Semantic Path Grounding.
 - **[vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval)**: Deterministic evaluation harness for scheduling agents. 500+ seeded scenarios, 713 conflicts generated, 10 machine-checkable invariants, 1,000 determinism checks (byte-identical replay). Naive baseline: 888 double-bookings, 841 priority violations. Cascade-aware agent: zero safety violations, 121 recovery failures (true resource exhaustion).
 - **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)**: Zero-LLM structural verification for AI claims. 4 ordered deterministic checks: citation present → section exists → section retrieved → quote matched. Catches "3 years → 5 years" hallucinations without a single model call. Standalone npm package.
@@ -56,7 +53,6 @@ Issues I opened in the same window:
 ## What I Work On
 
 </div>
-
 ### AI Agents & Agentic Systems
 
 | Project | What It Does | Key Signal |
@@ -90,7 +86,6 @@ Issues I opened in the same window:
 ## GitHub Activity
 
 </div>
-
 ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sagar-024)
 
 ![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sagar-024)
@@ -102,7 +97,6 @@ Issues I opened in the same window:
 ## What I'm Doing
 
 </div>
-
 - Building AI agent systems: autonomous engineering agents, orchestration, tool calling, verification, and agentic workflows.
 - Engineering evaluation-first: deterministic experiments, invariants, seeded scenarios, replayable results, and honest failure models.
 - Building full-stack products: React/Next.js, Node.js, Python, APIs, databases, deployment, and production interfaces.
@@ -116,7 +110,6 @@ Issues I opened in the same window:
 ## Latest Writings & Talks
 
 </div>
-
 <!-- BLOG-POST-LIST:START -->
 - [Deterministic Agent Evaluation: Why Invariants Beat Vibes](https://github.com/Sagar-024/vela-cascade-eval/blob/main/results/analysis.md)
 - [Zero-LLM Verification: Catching Hallucinations Without Models](https://github.com/Sagar-024/groundedness-engine)
@@ -130,7 +123,6 @@ Issues I opened in the same window:
 ## Recognition
 
 </div>
-
 - **Repatch**: Autonomous engineering agent with empirical TDD loop and sandboxed verification.
 - **vela-cascade-eval**: Honest failure model with 121 recovery failures (true resource exhaustion), not weakened assertions.
 - **groundedness-engine**: Structural verification layer designed to sit below semantic evaluation.
@@ -144,7 +136,6 @@ Issues I opened in the same window:
 ## Philosophy
 
 </div>
-
 > **Determinism over vibes. Empirical verification over claims. Honest failure models over hidden edge cases.**
 
 I build tools where the verification *is* the product. If you can't replay it byte-for-byte, it's not evaluated, it's hoped for.
@@ -156,7 +147,6 @@ I build tools where the verification *is* the product. If you can't replay it by
 ## Connect
 
 </div>
-
 [![LinkedIn](https://img.shields.io/badge/-Sagar_Kharal-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sagar-kharal)
 [![Email](https://img.shields.io/badge/-sagarkharal024@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sagarkharal024@gmail.com)
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sagar-024)
