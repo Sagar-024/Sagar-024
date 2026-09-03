@@ -4,7 +4,7 @@
 
 </div>
 
-Top 5 PRs merged into [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow):
+**18 PRs merged, 3 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
 - **#373** [Check the no-B-frame constraint in doctor and the encoder](https://github.com/Hebbian-Robotics/hflow/pull/373): enforce a video safety invariant that earlier code only trusted, closing a silent decode-loss path.
 - **#175** [Cache frame_stats per video to fix doubled decode cost](https://github.com/Hebbian-Robotics/hflow/pull/175): cut repeated video decode in half by memoizing frame-level computation per source video.
@@ -12,12 +12,15 @@ Top 5 PRs merged into [Hebbian-Robotics/hflow](https://github.com/Hebbian-Roboti
 - **#127** [fix(catalog): coerce NumPy scalar measurements at the boundary; refuse the rest](https://github.com/Hebbian-Robotics/hflow/pull/127): stopped silent NumPy scalar corruption from reaching persisted measurements.
 - **#345** [fix(video): refuse B-frame streams whose reorder tail a remux drops](https://github.com/Hebbian-Robotics/hflow/pull/345): reject input streams where remux drops the reorder tail, preventing downstream decode failures.
 
-Issues I opened in the same window:
+Issues I opened:
 
+- **#126** [Catalog: NumPy scalar measurements are stored as all-NULL, silently excluding episodes from curated manifests](https://github.com/Hebbian-Robotics/hflow/issues/126): closed, fixed by my PR #127.
 - **#376** [The fixed-GOP promise is stamped into provenance as "actually used" but is never measured on pass-through video](https://github.com/Hebbian-Robotics/hflow/issues/376)
 - **#379** [prepared-manifest.json records how many episodes were converted but not which ones, so a corrupt or missing episode cannot be detected from the delivery](https://github.com/Hebbian-Robotics/hflow/issues/379)
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
+
+&nbsp;
 
 <div align="center">
 
@@ -33,6 +36,8 @@ Issues I opened in the same window:
 - Researched and published a hybrid AI resume-screening pipeline using Sentence-BERT and Phi-3.5, evaluated across 8,000 resume-JD pairs.
 - Drove a 4-person team from data collection and experimentation through final publication.
 
+&nbsp;
+
 <div align="center">
 
 **Projects I Built on the Way**
@@ -44,6 +49,8 @@ Issues I opened in the same window:
 - **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)**: Zero-LLM structural verification for AI claims. 4 ordered deterministic checks: citation present → section exists → section retrieved → quote matched. Catches "3 years → 5 years" hallucinations without a single model call. Standalone npm package.
 - **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** (★1): 6-stage semantic resume ↔ JD matching pipeline. SBERT bi-encoder (all-MiniLM-L6-v2) + cosine similarity in 384-dim space. 59-node skill ontology (NetworkX DiGraph) with 2-hop transferability (e.g., Docker → Kubernetes). Implicit skill recovery surfaces 25% more skills vs keyword baselines. 9.1% accuracy gain over tools like Jobscan. Dynamic weight allocation per role type. SHAP-style explainability + PDF report generation.
 - **[Nexa](https://github.com/Sagar-024/Nexa)** (★1) · [Live](https://nexa0ai.netlify.app): AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides. React/Next.js, Node/Express, Tailwind, Framer Motion.
+
+&nbsp;
 
 <div align="center">
 
@@ -77,6 +84,8 @@ Issues I opened in the same window:
 | **[EatHere](https://github.com/Sagar-024/Eathere)** | Location-based food discovery | React 19, Express, MongoDB, Geoapify |
 | **[Job Board](https://github.com/Sagar-024/Job-board-web-app)** | Full-stack MERN job board | React, Node, Express, MongoDB, JWT |
 
+&nbsp;
+
 <div align="center">
 
 **What I'm Doing**
@@ -89,6 +98,8 @@ Issues I opened in the same window:
 - Learning in public: how determinism, verification, and reliable failure handling make AI systems trustworthy.
 - Open to roles in AI engineering, agentic software engineering, full-stack, backend, and early-stage startup work.
 
+&nbsp;
+
 <div align="center">
 
 **Latest Writings & Talks**
@@ -100,6 +111,8 @@ Issues I opened in the same window:
 - [Zero-LLM Verification: Catching Hallucinations Without Models](https://github.com/Sagar-024/groundedness-engine)
 - [Semantic Resume Matching: Beyond Keyword Overlap](https://github.com/Sagar-024/CAREERLENS)
 <!-- BLOG-POST-LIST:END -->
+
+&nbsp;
 
 <div align="center">
 
@@ -122,6 +135,8 @@ Issues I opened in the same window:
 - Will genuinely do a 2-week trial. No bureaucracy. Ship or don't.
 
 </details>
+
+&nbsp;
 
 <div align="center">
 <sub>if you made it this far, you might as well just reach out</sub>
