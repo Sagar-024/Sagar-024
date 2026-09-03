@@ -1,19 +1,3 @@
-# Hi, I'm Sagar
-
-**Remote (India)** | **AI Agentic Software Engineer · Full-Stack** | **B.Tech Computer Science Graduate**
-
-Building **AI agents, agentic workflows, full-stack products, and deterministic evaluation systems**: from orchestration and tool calling to verification, backend infrastructure, and production interfaces.
-
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-
----
-
 ## Who I Am
 
 - I'm a 22-year-old engineer currently contributing at HFlow, a YC-backed robotics data platform.
