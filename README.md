@@ -18,8 +18,6 @@ Issues I opened in the same window:
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
 
----
-
 <div align="center">
 
 ## Who I Am
@@ -33,8 +31,6 @@ Issues I opened in the same window:
 - Researched and published a hybrid AI resume-screening pipeline using Sentence-BERT and Phi-3.5, evaluated across 8,000 resume-JD pairs.
 - Drove a 4-person team from data collection and experimentation through final publication.
 
----
-
 <div align="center">
 
 ## Projects I Built on the Way
@@ -45,8 +41,6 @@ Issues I opened in the same window:
 - **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)**: Zero-LLM structural verification for AI claims. 4 ordered deterministic checks: citation present → section exists → section retrieved → quote matched. Catches "3 years → 5 years" hallucinations without a single model call. Standalone npm package.
 - **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** (★1): 6-stage semantic resume ↔ JD matching pipeline. SBERT bi-encoder (all-MiniLM-L6-v2) + cosine similarity in 384-dim space. 59-node skill ontology (NetworkX DiGraph) with 2-hop transferability (e.g., Docker → Kubernetes). Implicit skill recovery surfaces 25% more skills vs keyword baselines. 9.1% accuracy gain over tools like Jobscan. Dynamic weight allocation per role type. SHAP-style explainability + PDF report generation.
 - **[Nexa](https://github.com/Sagar-024/Nexa)** (★1) · [Live](https://nexa0ai.netlify.app): AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides. React/Next.js, Node/Express, Tailwind, Framer Motion.
-
----
 
 <div align="center">
 
@@ -79,8 +73,6 @@ Issues I opened in the same window:
 | **[EatHere](https://github.com/Sagar-024/Eathere)** | Location-based food discovery | React 19, Express, MongoDB, Geoapify |
 | **[Job Board](https://github.com/Sagar-024/Job-board-web-app)** | Full-stack MERN job board | React, Node, Express, MongoDB, JWT |
 
----
-
 <div align="center">
 
 ## GitHub Activity
@@ -89,8 +81,6 @@ Issues I opened in the same window:
 ![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sagar-024)
 
 ![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sagar-024)
-
----
 
 <div align="center">
 
@@ -103,8 +93,6 @@ Issues I opened in the same window:
 - Learning in public: how determinism, verification, and reliable failure handling make AI systems trustworthy.
 - Open to roles in AI engineering, agentic software engineering, full-stack, backend, and early-stage startup work.
 
----
-
 <div align="center">
 
 ## Latest Writings & Talks
@@ -115,8 +103,6 @@ Issues I opened in the same window:
 - [Zero-LLM Verification: Catching Hallucinations Without Models](https://github.com/Sagar-024/groundedness-engine)
 - [Semantic Resume Matching: Beyond Keyword Overlap](https://github.com/Sagar-024/CAREERLENS)
 <!-- BLOG-POST-LIST:END -->
-
----
 
 <div align="center">
 
@@ -129,8 +115,6 @@ Issues I opened in the same window:
 - **CAREERLENS**: 9.1% accuracy gain over keyword tools via SBERT + ontology transferability.
 - **Finalist**: Task API Take-Home Assignment (production-grade MERN app).
 
----
-
 <div align="center">
 
 ## Philosophy
@@ -139,8 +123,6 @@ Issues I opened in the same window:
 > **Determinism over vibes. Empirical verification over claims. Honest failure models over hidden edge cases.**
 
 I build tools where the verification *is* the product. If you can't replay it byte-for-byte, it's not evaluated, it's hoped for.
-
----
 
 <div align="center">
 
@@ -152,8 +134,6 @@ I build tools where the verification *is* the product. If you can't replay it by
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Sagar-024)
 [![X](https://img.shields.io/badge/-@skharal4_s-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/skharal4_s)
 
----
-
 <details>
 <summary>Random Facts</summary>
 
@@ -164,8 +144,6 @@ I build tools where the verification *is* the product. If you can't replay it by
 - Will genuinely do a 2-week trial. No bureaucracy. Ship or don't.
 
 </details>
-
----
 
 <div align="center">
 <sub>if you made it this far, you might as well just reach out</sub>
