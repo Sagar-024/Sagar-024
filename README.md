@@ -1,6 +1,6 @@
 <div align="center">
 
-## Currently
+**Currently**
 
 </div>
 
@@ -21,7 +21,7 @@ Issues I opened in the same window:
 
 <div align="center">
 
-## Who I Am
+**Who I Am**
 
 </div>
 
@@ -35,7 +35,7 @@ Issues I opened in the same window:
 
 <div align="center">
 
-## Projects I Built on the Way
+**Projects I Built on the Way**
 
 </div>
 
@@ -47,7 +47,7 @@ Issues I opened in the same window:
 
 <div align="center">
 
-## What I Work On
+**What I Work On**
 
 </div>
 
@@ -79,17 +79,7 @@ Issues I opened in the same window:
 
 <div align="center">
 
-## GitHub Activity
-
-</div>
-
-![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sagar-024)
-
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sagar-024)
-
-<div align="center">
-
-## What I'm Doing
+**What I'm Doing**
 
 </div>
 
@@ -101,7 +91,7 @@ Issues I opened in the same window:
 
 <div align="center">
 
-## Latest Writings & Talks
+**Latest Writings & Talks**
 
 </div>
 
@@ -113,29 +103,7 @@ Issues I opened in the same window:
 
 <div align="center">
 
-## Recognition
-
-</div>
-
-- **Repatch**: Autonomous engineering agent with empirical TDD loop and sandboxed verification.
-- **vela-cascade-eval**: Honest failure model with 121 recovery failures (true resource exhaustion), not weakened assertions.
-- **groundedness-engine**: Structural verification layer designed to sit below semantic evaluation.
-- **CAREERLENS**: 9.1% accuracy gain over keyword tools via SBERT + ontology transferability.
-- **Finalist**: Task API Take-Home Assignment (production-grade MERN app).
-
-<div align="center">
-
-## Philosophy
-
-</div>
-
-> **Determinism over vibes. Empirical verification over claims. Honest failure models over hidden edge cases.**
-
-I build tools where the verification *is* the product. If you can't replay it byte-for-byte, it's not evaluated, it's hoped for.
-
-<div align="center">
-
-## Connect
+**Connect**
 
 </div>
 
