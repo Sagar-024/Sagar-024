@@ -6,26 +6,21 @@
 
 **20 PRs merged, 6 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
-- **#403** [fix(import): report the collector's success label instead of inventing one](https://github.com/Hebbian-Robotics/hflow/pull/403): stop stamping success=true on episodes the source marked as failures; read the collector's own outcome label (MAX over next.success) and omit the key when the source has none.
-- **#389** [feat(import): per-episode receipts in prepared-manifest.json](https://github.com/Hebbian-Robotics/hflow/pull/389): every delivered episode carries its published URI, content hash, and byte size, so a truncated, missing, or swapped episode is detectable from the delivery itself.
+- **#403** [fix(import): report the collector's success label instead of inventing one](https://github.com/Hebbian-Robotics/hflow/pull/403): stop stamping success=true on episodes the source marked as failures; read the collector's own outcome label and omit the key when the source has none.
+- **#389** [feat(import): per-episode receipts in prepared-manifest.json](https://github.com/Hebbian-Robotics/hflow/pull/389): every delivered episode carries its content hash, so a damaged delivery is detectable from the receipt alone.
 - **#373** [Check the no-B-frame constraint in doctor and the encoder](https://github.com/Hebbian-Robotics/hflow/pull/373): enforce a video safety invariant that earlier code only trusted, closing a silent decode-loss path.
-- **#358** [refactor(video): serve both slice-header readers from one NAL walk](https://github.com/Hebbian-Robotics/hflow/pull/358): one shared decoder for two readers, verified equivalent across sixteen inputs by the maintainer.
 - **#354** [perf(video): unescape only the slice-header head, not the whole NAL](https://github.com/Hebbian-Robotics/hflow/pull/354): 31x faster scans on the canonical write path, byte-identical output.
 - **#345** [fix(video): refuse B-frame streams whose reorder tail a remux drops](https://github.com/Hebbian-Robotics/hflow/pull/345): reject input streams where remux drops the reorder tail, preventing downstream decode failures.
-- **#175** [Cache frame_stats per video to fix doubled decode cost](https://github.com/Hebbian-Robotics/hflow/pull/175): cut repeated video decode in half by memoizing frame-level computation per source video.
-- **#103** [examples/lerobot: pusht to canonical MCAP converter](https://github.com/Hebbian-Robotics/hflow/pull/103): shipped the first end-to-end LeRobot dataset to canonical MCAP conversion path.
-- **#127** [fix(catalog): coerce NumPy scalar measurements at the boundary; refuse the rest](https://github.com/Hebbian-Robotics/hflow/pull/127): stopped silent NumPy scalar corruption from reaching persisted measurements.
 
 Issues I opened:
 
-- **#126** [Catalog: NumPy scalar measurements are stored as all-NULL, silently excluding episodes from curated manifests](https://github.com/Hebbian-Robotics/hflow/issues/126): closed, fixed by my PR #127.
 - **#376** [The fixed-GOP promise is stamped into provenance as "actually used" but is never measured on pass-through video](https://github.com/Hebbian-Robotics/hflow/issues/376): confirmed as a bug; my measurement on a 24,689-message corpus settled the fix direction.
-- **#379** [prepared-manifest.json records how many episodes were converted but not which ones, so a corrupt or missing episode cannot be detected from the delivery](https://github.com/Hebbian-Robotics/hflow/issues/379): closed, fixed by my PR #389 the same day.
-- **#395** [The LeRobot importer ignores the source's success label and hardcodes "true" for every episode](https://github.com/Hebbian-Robotics/hflow/issues/395): confirmed as a bug; closed, fixed by my PR #403 the same day.
-- **#404** [Build AI check versions exclude max_retries and request_timeout_seconds, so evaluations that can differ share one version identity](https://github.com/Hebbian-Robotics/hflow/issues/404): open, claimed, demo attached.
-- **#405** [Eight LeRobot importer metadata refusals have no test, including the pagination loop guards](https://github.com/Hebbian-Robotics/hflow/issues/405): open, claimed, grep receipts attached.
+- **#395** [The LeRobot importer ignores the source's success label and hardcodes "true" for every episode](https://github.com/Hebbian-Robotics/hflow/issues/395): confirmed as a bug; fixed by my PR #403 the same day it was filed.
+- **#379** [prepared-manifest.json records how many episodes were converted but not which ones](https://github.com/Hebbian-Robotics/hflow/issues/379): fixed by my PR #389 the same day it was filed.
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
+
+&nbsp;
 
 &nbsp;
 
