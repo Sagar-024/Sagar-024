@@ -4,7 +4,7 @@
 
 </div>
 
-**20 PRs merged, 6 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
+**21 PRs merged, 7 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
 - **#403** [fix(import): report the collector's success label instead of inventing one](https://github.com/Hebbian-Robotics/hflow/pull/403): stop stamping success=true on episodes the source marked as failures; read the collector's own outcome label and omit the key when the source has none.
 - **#389** [feat(import): per-episode receipts in prepared-manifest.json](https://github.com/Hebbian-Robotics/hflow/pull/389): every delivered episode carries its content hash, so a damaged delivery is detectable from the receipt alone.
