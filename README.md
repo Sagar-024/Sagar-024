@@ -24,12 +24,6 @@ Issues I opened:
 
 <!-- HFLOW:END -->
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
 <div align="center">
 
 **Who I Am**
