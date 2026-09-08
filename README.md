@@ -4,21 +4,25 @@
 
 </div>
 
-**21 PRs merged, 7 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
+<!-- HFLOW:START -->
 
-- **#403** [fix(import): report the collector's success label instead of inventing one](https://github.com/Hebbian-Robotics/hflow/pull/403): stop stamping success=true on episodes the source marked as failures; read the collector's own outcome label and omit the key when the source has none.
-- **#389** [feat(import): per-episode receipts in prepared-manifest.json](https://github.com/Hebbian-Robotics/hflow/pull/389): every delivered episode carries its content hash, so a damaged delivery is detectable from the receipt alone.
-- **#373** [Check the no-B-frame constraint in doctor and the encoder](https://github.com/Hebbian-Robotics/hflow/pull/373): enforce a video safety invariant that earlier code only trusted, closing a silent decode-loss path.
-- **#354** [perf(video): unescape only the slice-header head, not the whole NAL](https://github.com/Hebbian-Robotics/hflow/pull/354): 31x faster scans on the canonical write path, byte-identical output.
-- **#345** [fix(video): refuse B-frame streams whose reorder tail a remux drops](https://github.com/Hebbian-Robotics/hflow/pull/345): reject input streams where remux drops the reorder tail, preventing downstream decode failures.
+**23 PRs merged, 8 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
+
+- **#457** [feat(snapshot): verify delivered snapshots against integrity receipts](https://github.com/Hebbian-Robotics/hflow/pull/457): verify delivered snapshots against integrity receipts — catch bit-rot in landing
+- **#429** [fix(import): CRC-validate reused landing episodes before stamping receipts](https://github.com/Hebbian-Robotics/hflow/pull/429): CRC-validate reused landing episodes before stamping receipts — close resume-path corruption gap
+- **#411** [fix(build-ai): cover completeness knobs in the check version contract](https://github.com/Hebbian-Robotics/hflow/pull/411): cover completeness knobs in the check-version contract — prevent version aliasing
+- **#403** [fix(import): report the collector's success label instead of inventing one](https://github.com/Hebbian-Robotics/hflow/pull/403): stop stamping success=true on episodes the source marked as failures; read the collector's own outcome label
+- **#389** [feat(import): per-episode receipts in prepared-manifest.json](https://github.com/Hebbian-Robotics/hflow/pull/389): every delivered episode carries its content hash, so a damaged delivery is detectable from the receipt alone
 
 Issues I opened:
 
-- **#376** [The fixed-GOP promise is stamped into provenance as "actually used" but is never measured on pass-through video](https://github.com/Hebbian-Robotics/hflow/issues/376): confirmed as a bug; my measurement on a 24,689-message corpus settled the fix direction.
-- **#395** [The LeRobot importer ignores the source's success label and hardcodes "true" for every episode](https://github.com/Hebbian-Robotics/hflow/issues/395): confirmed as a bug; fixed by my PR #403 the same day it was filed.
-- **#379** [prepared-manifest.json records how many episodes were converted but not which ones](https://github.com/Hebbian-Robotics/hflow/issues/379): fixed by my PR #389 the same day it was filed.
+- **#460** [doctor labels a healthy video corrupt when a decoder is unavailable](https://github.com/Hebbian-Robotics/hflow/issues/460) — open
+- **#426** [The resume path stamps a conversion receipt over reused bytes it never integrity-checked](https://github.com/Hebbian-Robotics/hflow/issues/426) — closed
+- **#405** [Eight LeRobot importer metadata refusals have no test, including the pagination loop guards](https://github.com/Hebbian-Robotics/hflow/issues/405) — closed
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
+
+<!-- HFLOW:END -->
 
 &nbsp;
 
