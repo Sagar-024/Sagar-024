@@ -37,40 +37,18 @@ issue_count = gh_search_count(f"repo:{REPO} author:{AUTHOR} is:issue")
 _, prs = gh_search(f"repo:{REPO} author:{AUTHOR} is:pr is:merged", per_page=5)
 _, issues = gh_search(f"repo:{REPO} author:{AUTHOR} is:issue", per_page=3)
 
-# Build markdown block
-# Keep curated descriptions map for known PRs to preserve your hand-written context
-DESC = {
-    457: "verify delivered snapshots against integrity receipts — catch bit-rot in landing",
-    429: "CRC-validate reused landing episodes before stamping receipts — close resume-path corruption gap",
-    411: "cover completeness knobs in the check-version contract — prevent version aliasing",
-    403: "stop stamping success=true on episodes the source marked as failures; read the collector's own outcome label",
-    389: "every delivered episode carries its content hash, so a damaged delivery is detectable from the receipt alone",
-    373: "enforce a video safety invariant that earlier code only trusted, closing a silent decode-loss path",
-    354: "31x faster scans on the canonical write path, byte-identical output",
-    345: "reject input streams where remux drops the reorder tail, preventing downstream decode failures",
-}
-
+# Build markdown block — clean, link-only (no right-side explanation, link is enough)
 def pr_line(pr):
     n = pr["number"]
     title = pr["title"]
     url = pr["html_url"]
-    # extract type from title for cleaner label
-    desc = DESC.get(n, title)
-    # shorten desc if too long
-    if len(desc) > 120:
-        desc = desc[:117] + "..."
-    # use first word as tag e.g., fix/import
-    # try to keep title's prefix like fix(import): ...
-    short = title.split(":")[0] if ":" in title else title[:20]
-    return f"- **#{n}** [{title}]({url}): {desc}"
+    return f"- **#{n}** [{title}]({url})"
 
 def issue_line(iss):
     n = iss["number"]
     title = iss["title"]
     url = iss["html_url"]
-    state = iss["state"]
-    # short desc from title
-    return f"- **#{n}** [{title}]({url}) — {state}"
+    return f"- **#{n}** [{title}]({url})"
 
 block = f"""**{pr_count} PRs merged, {issue_count} issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 

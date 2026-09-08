@@ -8,17 +8,17 @@
 
 **23 PRs merged, 8 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
-- **#457** [feat(snapshot): verify delivered snapshots against integrity receipts](https://github.com/Hebbian-Robotics/hflow/pull/457): verify delivered snapshots against integrity receipts — catch bit-rot in landing
-- **#429** [fix(import): CRC-validate reused landing episodes before stamping receipts](https://github.com/Hebbian-Robotics/hflow/pull/429): CRC-validate reused landing episodes before stamping receipts — close resume-path corruption gap
-- **#411** [fix(build-ai): cover completeness knobs in the check version contract](https://github.com/Hebbian-Robotics/hflow/pull/411): cover completeness knobs in the check-version contract — prevent version aliasing
-- **#403** [fix(import): report the collector's success label instead of inventing one](https://github.com/Hebbian-Robotics/hflow/pull/403): stop stamping success=true on episodes the source marked as failures; read the collector's own outcome label
-- **#389** [feat(import): per-episode receipts in prepared-manifest.json](https://github.com/Hebbian-Robotics/hflow/pull/389): every delivered episode carries its content hash, so a damaged delivery is detectable from the receipt alone
+- **#457** [feat(snapshot): verify delivered snapshots against integrity receipts](https://github.com/Hebbian-Robotics/hflow/pull/457)
+- **#429** [fix(import): CRC-validate reused landing episodes before stamping receipts](https://github.com/Hebbian-Robotics/hflow/pull/429)
+- **#411** [fix(build-ai): cover completeness knobs in the check version contract](https://github.com/Hebbian-Robotics/hflow/pull/411)
+- **#403** [fix(import): report the collector's success label instead of inventing one](https://github.com/Hebbian-Robotics/hflow/pull/403)
+- **#389** [feat(import): per-episode receipts in prepared-manifest.json](https://github.com/Hebbian-Robotics/hflow/pull/389)
 
 Issues I opened:
 
-- **#460** [doctor labels a healthy video corrupt when a decoder is unavailable](https://github.com/Hebbian-Robotics/hflow/issues/460) — open
-- **#426** [The resume path stamps a conversion receipt over reused bytes it never integrity-checked](https://github.com/Hebbian-Robotics/hflow/issues/426) — closed
-- **#405** [Eight LeRobot importer metadata refusals have no test, including the pagination loop guards](https://github.com/Hebbian-Robotics/hflow/issues/405) — closed
+- **#460** [doctor labels a healthy video corrupt when a decoder is unavailable](https://github.com/Hebbian-Robotics/hflow/issues/460)
+- **#426** [The resume path stamps a conversion receipt over reused bytes it never integrity-checked](https://github.com/Hebbian-Robotics/hflow/issues/426)
+- **#405** [Eight LeRobot importer metadata refusals have no test, including the pagination loop guards](https://github.com/Hebbian-Robotics/hflow/issues/405)
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
 
