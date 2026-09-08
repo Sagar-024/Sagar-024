@@ -1,3 +1,7 @@
+﻿![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e40af&height=180&section=header&text=Sagar%20Kharal&fontSize=38&fontColor=ffffff&fontAlign=50&fontAlignY=35&desc=Meteoric%20%E2%80%A2%20Audacious%20%E2%80%A2%20Builder%20%C2%B7%20HFlow%20(YC%20S26)&descAlign=50&descAlignY=55&descSize=14)
+
+[![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=AI+Agents+%7C+Evaluation+Harnesses+%7C+Robotics+Data+Pipelines;PRs+merged+in+HFlow+%E2%80%94+and+counting...)](https://github.com/Sagar-024)
+
 <div align="center">
 
 **Currently**
@@ -6,19 +10,19 @@
 
 <!-- HFLOW:START -->
 
-**23 PRs merged, 8 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
+**PRs merged, 8 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
-- **#457** [feat(snapshot): verify delivered snapshots against integrity receipts](https://github.com/Hebbian-Robotics/hflow/pull/457): verify delivered snapshots against integrity receipts — catch bit-rot in landing
-- **#429** [fix(import): CRC-validate reused landing episodes before stamping receipts](https://github.com/Hebbian-Robotics/hflow/pull/429): CRC-validate reused landing episodes before stamping receipts — close resume-path corruption gap
-- **#411** [fix(build-ai): cover completeness knobs in the check version contract](https://github.com/Hebbian-Robotics/hflow/pull/411): cover completeness knobs in the check-version contract — prevent version aliasing
+- **#457** [feat(snapshot): verify delivered snapshots against integrity receipts](https://github.com/Hebbian-Robotics/hflow/pull/457): verify delivered snapshots against integrity receipts â€” catch bit-rot in landing
+- **#429** [fix(import): CRC-validate reused landing episodes before stamping receipts](https://github.com/Hebbian-Robotics/hflow/pull/429): CRC-validate reused landing episodes before stamping receipts â€” close resume-path corruption gap
+- **#411** [fix(build-ai): cover completeness knobs in the check version contract](https://github.com/Hebbian-Robotics/hflow/pull/411): cover completeness knobs in the check-version contract â€” prevent version aliasing
 - **#403** [fix(import): report the collector's success label instead of inventing one](https://github.com/Hebbian-Robotics/hflow/pull/403): stop stamping success=true on episodes the source marked as failures; read the collector's own outcome label
 - **#389** [feat(import): per-episode receipts in prepared-manifest.json](https://github.com/Hebbian-Robotics/hflow/pull/389): every delivered episode carries its content hash, so a damaged delivery is detectable from the receipt alone
 
 Issues I opened:
 
-- **#460** [doctor labels a healthy video corrupt when a decoder is unavailable](https://github.com/Hebbian-Robotics/hflow/issues/460) — open
-- **#426** [The resume path stamps a conversion receipt over reused bytes it never integrity-checked](https://github.com/Hebbian-Robotics/hflow/issues/426) — closed
-- **#405** [Eight LeRobot importer metadata refusals have no test, including the pagination loop guards](https://github.com/Hebbian-Robotics/hflow/issues/405) — closed
+- **#460** [doctor labels a healthy video corrupt when a decoder is unavailable](https://github.com/Hebbian-Robotics/hflow/issues/460) â€” open
+- **#426** [The resume path stamps a conversion receipt over reused bytes it never integrity-checked](https://github.com/Hebbian-Robotics/hflow/issues/426) â€” closed
+- **#405** [Eight LeRobot importer metadata refusals have no test, including the pagination loop guards](https://github.com/Hebbian-Robotics/hflow/issues/405) â€” closed
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
 
@@ -52,11 +56,11 @@ Issues I opened:
 
 </div>
 
-- **[Repatch](https://github.com/Sagar-024/Repatch)** (★1): Autonomous engineering agent that reproduces bugs, authors tests, applies fixes, opens PRs. 7-step state-machine orchestration (UNDERSTAND → EXPLORE → REPRODUCE → PLAN → EXECUTE → VERIFY → SUBMIT). Structured tool calling, Docker/Nixpacks sandboxing, Map of Truth / Semantic Path Grounding.
+- **[Repatch](https://github.com/Sagar-024/Repatch)** (â˜…1): Autonomous engineering agent that reproduces bugs, authors tests, applies fixes, opens PRs. 7-step state-machine orchestration (UNDERSTAND â†’ EXPLORE â†’ REPRODUCE â†’ PLAN â†’ EXECUTE â†’ VERIFY â†’ SUBMIT). Structured tool calling, Docker/Nixpacks sandboxing, Map of Truth / Semantic Path Grounding.
 - **[vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval)**: Deterministic evaluation harness for scheduling agents. 500+ seeded scenarios, 713 conflicts generated, 10 machine-checkable invariants, 1,000 determinism checks (byte-identical replay). Naive baseline: 888 double-bookings, 841 priority violations. Cascade-aware agent: zero safety violations, 121 recovery failures (true resource exhaustion).
-- **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)**: Zero-LLM structural verification for AI claims. 4 ordered deterministic checks: citation present → section exists → section retrieved → quote matched. Catches "3 years → 5 years" hallucinations without a single model call. Standalone npm package.
-- **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** (★1): 6-stage semantic resume ↔ JD matching pipeline. SBERT bi-encoder (all-MiniLM-L6-v2) + cosine similarity in 384-dim space. 59-node skill ontology (NetworkX DiGraph) with 2-hop transferability (e.g., Docker → Kubernetes). Implicit skill recovery surfaces 25% more skills vs keyword baselines. 9.1% accuracy gain over tools like Jobscan. Dynamic weight allocation per role type. SHAP-style explainability + PDF report generation.
-- **[Nexa](https://github.com/Sagar-024/Nexa)** (★1) · [Live](https://nexa0ai.netlify.app): AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides. React/Next.js, Node/Express, Tailwind, Framer Motion.
+- **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)**: Zero-LLM structural verification for AI claims. 4 ordered deterministic checks: citation present â†’ section exists â†’ section retrieved â†’ quote matched. Catches "3 years â†’ 5 years" hallucinations without a single model call. Standalone npm package.
+- **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** (â˜…1): 6-stage semantic resume â†” JD matching pipeline. SBERT bi-encoder (all-MiniLM-L6-v2) + cosine similarity in 384-dim space. 59-node skill ontology (NetworkX DiGraph) with 2-hop transferability (e.g., Docker â†’ Kubernetes). Implicit skill recovery surfaces 25% more skills vs keyword baselines. 9.1% accuracy gain over tools like Jobscan. Dynamic weight allocation per role type. SHAP-style explainability + PDF report generation.
+- **[Nexa](https://github.com/Sagar-024/Nexa)** (â˜…1) Â· [Live](https://nexa0ai.netlify.app): AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides. React/Next.js, Node/Express, Tailwind, Framer Motion.
 
 &nbsp;
 
@@ -72,7 +76,7 @@ Issues I opened:
 |---|---|---|
 | **[Repatch](https://github.com/Sagar-024/Repatch)** | Autonomous bug-fixing agent | 7-step state-machine orchestration, structured tool calling, Docker/Nixpacks sandboxing, Map of Truth |
 | **[vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval)** | Deterministic evaluation harness | 10 invariants, 713 conflicts, seeded replay, honest failure model |
-| **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)** | Structural claim verification | Zero-LLM deterministic checks, citation→section→retrieval→quote |
+| **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)** | Structural claim verification | Zero-LLM deterministic checks, citationâ†’sectionâ†’retrievalâ†’quote |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | Self-improving agent system | Contributor: TUI, MCP, cron, multi-platform gateway |
 
 ### Evaluation & Verification
@@ -88,7 +92,7 @@ Issues I opened:
 | Project | What It Does | Stack |
 |---|---|---|
 | **[Nexa](https://github.com/Sagar-024/Nexa)** | AI trip planner, personalized itineraries | Next.js, Gemini API, Tailwind, Framer Motion |
-| **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** | Semantic resume ↔ JD matching | Next.js, FastAPI, SBERT, NetworkX, PostgreSQL |
+| **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** | Semantic resume â†” JD matching | Next.js, FastAPI, SBERT, NetworkX, PostgreSQL |
 | **[EatHere](https://github.com/Sagar-024/Eathere)** | Location-based food discovery | React 19, Express, MongoDB, Geoapify |
 | **[Job Board](https://github.com/Sagar-024/Job-board-web-app)** | Full-stack MERN job board | React, Node, Express, MongoDB, JWT |
 
@@ -139,7 +143,7 @@ Issues I opened:
 - Run 3-5 agent instances concurrently for eval (Repatch, vela-cascade-eval, groundedness-engine all at once).
 - Obsessed with seeded RNG determinism: `mulberry32` > `Math.random()` every time.
 - Powered by filter coffee & late-night invariant debugging.
-- "It works on my machine" → "It works in the sandbox with Nixpacks detection."
+- "It works on my machine" â†’ "It works in the sandbox with Nixpacks detection."
 - Will genuinely do a 2-week trial. No bureaucracy. Ship or don't.
 
 </details>
