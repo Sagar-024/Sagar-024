@@ -1,6 +1,6 @@
 ﻿![header](./assets/header.svg)
 
-[![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=AI+Agents+%7C+Evaluation+Harnesses+%7C+Robotics+Data+Pipelines;PRs+merged+in+HFlow+%E2%80%94+and+counting...)](https://github.com/Sagar-024)
+[![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=1200&color=7D8590&center=true&vCenter=true&width=620&lines=AI+Agents+%C2%B7+Evaluation+%C2%B7+Robotics+Data+Pipelines;shipping+HFlow+weekly)](https://github.com/Sagar-024)
 
 <div align="center">
 

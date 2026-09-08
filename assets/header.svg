@@ -1,102 +1,47 @@
-<svg width="1280" height="340" viewBox="0 0 1280 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sagar Kharal — Meteoric Audacious Builder">
+<svg width="1280" height="300" viewBox="0 0 1280 300" xmlns="http://www.w3.org/2000/svg" role="img">
 <defs>
-  <!-- subtle grid -->
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1a1e" stroke-width="0.7" opacity="1"/>
+  <!-- ultra-subtle dot grid — 2% opacity, not the loud 40px grid before -->
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.9" fill="#21262D" opacity="1"/>
   </pattern>
-  <!-- noise -->
-  <filter id="noise">
-    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch" result="n"/>
-    <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.035 0" result="faded"/>
-  </filter>
-  <!-- thin hairline gradient -->
-  <linearGradient id="hairline" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#E5E7EB" stop-opacity="0"/>
-    <stop offset="12%" stop-color="#E5E7EB" stop-opacity="0.9"/>
-    <stop offset="88%" stop-color="#E5E7EB" stop-opacity="0.9"/>
-    <stop offset="100%" stop-color="#E5E7EB" stop-opacity="0"/>
-  </linearGradient>
 </defs>
 
-<!-- bg -->
-<rect width="1280" height="340" rx="18" fill="#09090B"/>
-<rect width="1280" height="340" rx="18" fill="url(#grid)"/>
-<rect width="1280" height="340" rx="18" fill="white" filter="url(#noise)" opacity="0.6"/>
+<!-- match GitHub's own canvas exactly — no vibe gradient -->
+<rect width="1280" height="300" rx="12" fill="#0D1117"/>
+<rect width="1280" height="300" rx="12" fill="url(#dots)" opacity="0.55"/>
+<!-- hairline border — GitHub Primer border -->
+<rect x="0.5" y="0.5" width="1279" height="299" rx="12" fill="none" stroke="#21262D" stroke-width="1"/>
 
-<!-- outer border -->
-<rect x="0.5" y="0.5" width="1279" height="339" rx="18" fill="none" stroke="#1F1F23" stroke-width="1"/>
-
-<!-- top eyebrow line -->
-<g transform="translate(48, 38)">
-  <text x="0" y="0" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, monospace" font-size="10.5" font-weight="500" letter-spacing="3.6" fill="#9CA3AF">METEORIC — AUDACIOUS — BUILDER</text>
-  <!-- live pill -->
-  <g transform="translate(860, -14)">
-    <rect x="0" y="0" width="172" height="26" rx="13" fill="#111114" stroke="#26262B" stroke-width="1"/>
-    <circle cx="14" cy="13" r="4.2" fill="#22C55E"/>
-    <circle cx="14" cy="13" r="7.5" fill="#22C55E" opacity="0.15"/>
-    <text x="26" y="17.5" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600" letter-spacing="0.6" fill="#E5E7EB">HFlow · YC S26 · LIVE</text>
-  </g>
+<!-- eyebrow — left -->
+<g transform="translate(40, 36)">
+  <text x="0" y="0" font-family="'SF Mono','JetBrains Mono',ui-monospace,monospace" font-size="10" font-weight="500" letter-spacing="3.2" fill="#7D8590">METEORIC · AUDACIOUS · BUILDER</text>
 </g>
 
-<!-- hairline under eyebrow -->
-<rect x="48" y="58" width="1184" height="1" fill="url(#hairline)" opacity="0.7"/>
-
-<!-- NAME — editorial, left aligned -->
-<g transform="translate(48, 118)">
-  <text x="0" y="0" font-family="'Instrument Serif','Times New Roman', serif" font-size="82" font-weight="400" letter-spacing="-3.2" fill="#FAFAFA">Sagar</text>
-  <text x="232" y="0" font-family="'Inter','Helvetica Neue', sans-serif" font-size="82" font-weight="200" letter-spacing="-4.5" fill="#FAFAFA">Kharal</text>
-  <!-- baseline rule -->
-  <rect x="0" y="18" width="1184" height="1" fill="#222227"/>
+<!-- status — right, Primer pill style, no neon -->
+<g transform="translate(1062, 24)">
+  <rect x="0" y="0" width="178" height="24" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+  <circle cx="13" cy="12" r="4" fill="#3FB950"/>
+  <text x="24" y="16" font-family="'SF Mono','JetBrains Mono',monospace" font-size="10" font-weight="600" letter-spacing="0.4" fill="#E6EDF3">HFlow · YC S26</text>
 </g>
 
-<!-- subline — two columns -->
-<g transform="translate(48, 168)">
-  <text x="0" y="0" font-family="'Inter', sans-serif" font-size="15.5" font-weight="400" letter-spacing="-0.2" fill="#D1D5DB">Engineer working on <tspan fill="#FAFAFA" font-weight="550">AI agents</tspan>, <tspan fill="#FAFAFA" font-weight="550">evaluation harnesses</tspan> &amp; <tspan fill="#FAFAFA" font-weight="550">robotics data pipelines</tspan></text>
-  <text x="0" y="24" font-family="'JetBrains Mono', monospace" font-size="12.2" font-weight="400" letter-spacing="0.1" fill="#8B8D93">23 PRs merged · 8 issues opened · HFlow MCAP / Airflow / DuckDB · Pre-v1, shipping weekly</text>
+<!-- hairline -->
+<line x1="40" y1="54" x2="1240" y2="54" stroke="#21262D" stroke-width="1" opacity="1"/>
+
+<!-- NAME — single font, single weight, tight tracking — no serif/sans mix -->
+<g transform="translate(40, 132)">
+  <text x="0" y="0" font-family="'Inter','Segoe UI',Helvetica,Arial,sans-serif" font-size="66" font-weight="650" letter-spacing="-3.8" fill="#F0F6FC">Sagar Kharal</text>
 </g>
 
-<!-- right abstract — pipeline nodes, very subtle, editorial -->
-<g transform="translate(820, 92)" opacity="0.95">
-  <!-- connection line -->
-  <path d="M 18 52 L 138 52 L 138 92 L 258 92 L 258 52 L 378 52" fill="none" stroke="#2A2A30" stroke-width="1.6" stroke-dasharray="0"/>
-  <path d="M 18 52 L 138 52 L 138 92 L 258 92 L 258 52 L 378 52" fill="none" stroke="#38BDF8" stroke-width="1.6" stroke-dasharray="7 9" opacity="0.35"/>
-  <!-- dots -->
-  <g fill="#0A0A0B" stroke="#2A2A30" stroke-width="1.4">
-    <rect x="2" y="36" width="32" height="32" rx="7" fill="#111114"/>
-    <rect x="122" y="36" width="32" height="32" rx="7" fill="#111114"/>
-    <rect x="242" y="76" width="32" height="32" rx="7" fill="#111114"/>
-    <rect x="362" y="36" width="32" height="32" rx="7" fill="#FAFAFA" stroke="#FAFAFA"/>
-  </g>
-  <!-- icons inside (simple) -->
-  <g stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.9">
-    <path d="M 12 52 L 12 52 M 10 46 L 22 46 L 22 58 L 10 58 Z M 14 50 L 18 50" transform="translate(2,0)"/>
-    <path d="M 132 48 L 144 48 M 138 44 L 138 56" transform="translate(0,0)"/>
-    <path d="M 252 86 L 264 86 M 258 82 L 258 94" transform="translate(0,0)"/>
-  </g>
-  <g fill="#0A0A0B" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="600" letter-spacing="0.8" text-anchor="middle">
-    <text x="18" y="46" fill="#CBD5E1">SRC</text>
-  </g>
-  <g fill="#121214" font-family="'JetBrains Mono', monospace" font-size="7" font-weight="600" letter-spacing="0.6" text-anchor="middle">
-    <text x="138" y="55" fill="#9CA3AF">MCAP</text>
-    <text x="258" y="95" fill="#9CA3AF">DUCK</text>
-  </g>
-  <g fill="#0A0A0B" font-family="'JetBrains Mono', monospace" font-size="7.5" font-weight="700" letter-spacing="0.8" text-anchor="middle">
-    <text x="378" y="48" fill="#0A0A0B">AIR</text>
-  </g>
-
-  <!-- labels under -->
-  <g font-family="'JetBrains Mono', monospace" font-size="8.5" letter-spacing="1.1" fill="#52525B" text-anchor="middle">
-    <text x="18" y="82">COLLECT</text>
-    <text x="138" y="82">ENCODE</text>
-    <text x="258" y="124">CATALOG</text>
-    <text x="378" y="82">ORCHESTRATE</text>
-  </g>
+<!-- role line -->
+<g transform="translate(40, 166)">
+  <text x="0" y="0" font-family="'Inter','Segoe UI',sans-serif" font-size="15" font-weight="400" letter-spacing="-0.2" fill="#8B949E">Engineer @ <tspan fill="#E6EDF3" font-weight="550">Hebbian Robotics</tspan> — AI agents, evaluation &amp; robotics data</text>
+  <text x="0" y="22" font-family="'SF Mono','JetBrains Mono',monospace" font-size="11.5" font-weight="400" letter-spacing="0.15" fill="#7D8590">HFlow · MCAP · Airflow · DuckDB · 23 PRs · 8 issues · pre-v1, shipping weekly</text>
 </g>
 
-<!-- bottom bar — mono detail -->
-<g transform="translate(48, 272)">
-  <rect x="0" y="0" width="1184" height="1" fill="#1F1F23"/>
-  <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="400" letter-spacing="1.4" fill="#6B7280">AI AGENTS — EVALUATION — VERIFICATION — FULL-STACK — OPEN SOURCE — REMOTE (INDIA)</text>
-  <text x="1184" y="22" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="500" letter-spacing="1.2" fill="#9CA3AF" text-anchor="end">SAGAR-KHARAL.VERCEL.APP →</text>
+<!-- bottom rule + mono footer -->
+<g transform="translate(40, 252)">
+  <line x1="0" y1="0" x2="1200" y2="0" stroke="#21262D" stroke-width="1"/>
+  <text x="0" y="20" font-family="'SF Mono','JetBrains Mono',monospace" font-size="9.5" font-weight="400" letter-spacing="1.6" fill="#484F58">AI AGENTS — EVALUATION — VERIFICATION — FULL-STACK</text>
+  <text x="1200" y="20" font-family="'SF Mono','JetBrains Mono',monospace" font-size="9.5" font-weight="500" letter-spacing="1.2" fill="#7D8590" text-anchor="end">sagar-kharal.vercel.app — remote (india)</text>
 </g>
 </svg>
