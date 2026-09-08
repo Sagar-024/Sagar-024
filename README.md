@@ -52,11 +52,11 @@ Issues I opened:
 
 </div>
 
-- **[Repatch](https://github.com/Sagar-024/Repatch)** (â˜…1): Autonomous engineering agent that reproduces bugs, authors tests, applies fixes, opens PRs. 7-step state-machine orchestration (UNDERSTAND â†’ EXPLORE â†’ REPRODUCE â†’ PLAN â†’ EXECUTE â†’ VERIFY â†’ SUBMIT). Structured tool calling, Docker/Nixpacks sandboxing, Map of Truth / Semantic Path Grounding.
+- **[Repatch](https://github.com/Sagar-024/Repatch)**: Autonomous engineering agent that reproduces bugs, authors tests, applies fixes, opens PRs. 7-step state-machine orchestration (UNDERSTAND → EXPLORE → REPRODUCE → PLAN → EXECUTE → VERIFY → SUBMIT). Structured tool calling, Docker/Nixpacks sandboxing, Map of Truth / Semantic Path Grounding.
 - **[vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval)**: Deterministic evaluation harness for scheduling agents. 500+ seeded scenarios, 713 conflicts generated, 10 machine-checkable invariants, 1,000 determinism checks (byte-identical replay). Naive baseline: 888 double-bookings, 841 priority violations. Cascade-aware agent: zero safety violations, 121 recovery failures (true resource exhaustion).
-- **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)**: Zero-LLM structural verification for AI claims. 4 ordered deterministic checks: citation present â†’ section exists â†’ section retrieved â†’ quote matched. Catches "3 years â†’ 5 years" hallucinations without a single model call. Standalone npm package.
-- **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** (â˜…1): 6-stage semantic resume â†” JD matching pipeline. SBERT bi-encoder (all-MiniLM-L6-v2) + cosine similarity in 384-dim space. 59-node skill ontology (NetworkX DiGraph) with 2-hop transferability (e.g., Docker â†’ Kubernetes). Implicit skill recovery surfaces 25% more skills vs keyword baselines. 9.1% accuracy gain over tools like Jobscan. Dynamic weight allocation per role type. SHAP-style explainability + PDF report generation.
-- **[Nexa](https://github.com/Sagar-024/Nexa)** (â˜…1) Â· [Live](https://nexa0ai.netlify.app): AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides. React/Next.js, Node/Express, Tailwind, Framer Motion.
+- **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)**: Zero-LLM structural verification for AI claims. 4 ordered deterministic checks: citation present → section exists → section retrieved → quote matched. Catches "3 years → 5 years" hallucinations without a single model call. Standalone npm package.
+- **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)**: 6-stage semantic resume ↔ JD matching pipeline. SBERT bi-encoder (all-MiniLM-L6-v2) + cosine similarity in 384-dim space. 59-node skill ontology (NetworkX DiGraph) with 2-hop transferability (e.g., Docker → Kubernetes). Implicit skill recovery surfaces 25% more skills vs keyword baselines. 9.1% accuracy gain over tools like Jobscan. Dynamic weight allocation per role type. SHAP-style explainability + PDF report generation.
+- **[Nexa](https://github.com/Sagar-024/Nexa)** · [Live](https://nexa0ai.netlify.app): AI trip planner powered by Gemini. Personalized itineraries from preferences, not generic guides. React/Next.js, Node/Express, Tailwind, Framer Motion.
 
 &nbsp;
 
@@ -72,7 +72,7 @@ Issues I opened:
 |---|---|---|
 | **[Repatch](https://github.com/Sagar-024/Repatch)** | Autonomous bug-fixing agent | 7-step state-machine orchestration, structured tool calling, Docker/Nixpacks sandboxing, Map of Truth |
 | **[vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval)** | Deterministic evaluation harness | 10 invariants, 713 conflicts, seeded replay, honest failure model |
-| **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)** | Structural claim verification | Zero-LLM deterministic checks, citationâ†’sectionâ†’retrievalâ†’quote |
+| **[groundedness-engine](https://github.com/Sagar-024/groundedness-engine)** | Structural claim verification | Zero-LLM deterministic checks, citation→section→retrieval→quote |
 | **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | Self-improving agent system | Contributor: TUI, MCP, cron, multi-platform gateway |
 
 ### Evaluation & Verification
@@ -88,7 +88,7 @@ Issues I opened:
 | Project | What It Does | Stack |
 |---|---|---|
 | **[Nexa](https://github.com/Sagar-024/Nexa)** | AI trip planner, personalized itineraries | Next.js, Gemini API, Tailwind, Framer Motion |
-| **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** | Semantic resume â†” JD matching | Next.js, FastAPI, SBERT, NetworkX, PostgreSQL |
+| **[CAREERLENS](https://github.com/Sagar-024/CAREERLENS)** | Semantic resume ↔ JD matching | Next.js, FastAPI, SBERT, NetworkX, PostgreSQL |
 | **[EatHere](https://github.com/Sagar-024/Eathere)** | Location-based food discovery | React 19, Express, MongoDB, Geoapify |
 | **[Job Board](https://github.com/Sagar-024/Job-board-web-app)** | Full-stack MERN job board | React, Node, Express, MongoDB, JWT |
 
@@ -139,7 +139,7 @@ Issues I opened:
 - Run 3-5 agent instances concurrently for eval (Repatch, vela-cascade-eval, groundedness-engine all at once).
 - Obsessed with seeded RNG determinism: `mulberry32` > `Math.random()` every time.
 - Powered by filter coffee & late-night invariant debugging.
-- "It works on my machine" â†’ "It works in the sandbox with Nixpacks detection."
+- "It works on my machine" → "It works in the sandbox with Nixpacks detection."
 - Will genuinely do a 2-week trial. No bureaucracy. Ship or don't.
 
 </details>
