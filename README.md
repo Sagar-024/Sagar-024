@@ -1,5 +1,3 @@
-﻿![header](./assets/header.svg)
-
 [![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&pause=1200&color=7D8590&center=true&vCenter=true&width=620&lines=AI+Agents+%C2%B7+Evaluation+%C2%B7+Robotics+Data+Pipelines;shipping+HFlow+weekly)](https://github.com/Sagar-024)
 
 <div align="center">
