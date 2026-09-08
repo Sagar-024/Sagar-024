@@ -1,4 +1,4 @@
-﻿![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e40af&height=180&section=header&text=Sagar%20Kharal&fontSize=38&fontColor=ffffff&fontAlign=50&fontAlignY=35&desc=Meteoric%20%E2%80%A2%20Audacious%20%E2%80%A2%20Builder%20%C2%B7%20HFlow%20(YC%20S26)&descAlign=50&descAlignY=55&descSize=14)
+﻿![header](./assets/header.svg)
 
 [![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=AI+Agents+%7C+Evaluation+Harnesses+%7C+Robotics+Data+Pipelines;PRs+merged+in+HFlow+%E2%80%94+and+counting...)](https://github.com/Sagar-024)
 
