@@ -6,19 +6,19 @@
 
 <!-- HFLOW:START -->
 
-**23 PRs merged, 8 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
+**24 PRs merged, 11 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
+- **#465** [fix(doctor): report unsupported video encodings and missing schemas separately from read-failed](https://github.com/Hebbian-Robotics/hflow/pull/465)
 - **#457** [feat(snapshot): verify delivered snapshots against integrity receipts](https://github.com/Hebbian-Robotics/hflow/pull/457)
 - **#429** [fix(import): CRC-validate reused landing episodes before stamping receipts](https://github.com/Hebbian-Robotics/hflow/pull/429)
 - **#411** [fix(build-ai): cover completeness knobs in the check version contract](https://github.com/Hebbian-Robotics/hflow/pull/411)
 - **#403** [fix(import): report the collector's success label instead of inventing one](https://github.com/Hebbian-Robotics/hflow/pull/403)
-- **#389** [feat(import): per-episode receipts in prepared-manifest.json](https://github.com/Hebbian-Robotics/hflow/pull/389)
 
 Issues I opened:
 
 - **#460** [doctor labels a healthy video corrupt when a decoder is unavailable](https://github.com/Hebbian-Robotics/hflow/issues/460)
-- **#426** [The resume path stamps a conversion receipt over reused bytes it never integrity-checked](https://github.com/Hebbian-Robotics/hflow/issues/426)
-- **#405** [Eight LeRobot importer metadata refusals have no test, including the pagination loop guards](https://github.com/Hebbian-Robotics/hflow/issues/405)
+- **#472** [verify snapshot accepts directories the exporter would refuse: no format identity check at the verifier boundary](https://github.com/Hebbian-Robotics/hflow/issues/472)
+- **#473** [verify snapshot never checks integrity.content_id, so the documented deleted-member guarantee is unenforced](https://github.com/Hebbian-Robotics/hflow/issues/473)
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
 
