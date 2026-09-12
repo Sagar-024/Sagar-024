@@ -6,13 +6,13 @@
 
 <!-- HFLOW:START -->
 
-**27 PRs merged, 11 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
+**28 PRs merged, 11 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
+- **#502** [fix(checks): validate canonical CRCs once at lane entry with memoization](https://github.com/Hebbian-Robotics/hflow/pull/502)
 - **#493** [refactor(snapshot): type receipt entries while preserving the content_id invariant](https://github.com/Hebbian-Robotics/hflow/pull/493)
 - **#486** [fix(snapshot): refuse markers whose format identity the exporter would refuse](https://github.com/Hebbian-Robotics/hflow/pull/486)
 - **#483** [fix(snapshot): enforce the receipt inventory content_id at verify time](https://github.com/Hebbian-Robotics/hflow/pull/483)
 - **#465** [fix(doctor): report unsupported video encodings and missing schemas separately from read-failed](https://github.com/Hebbian-Robotics/hflow/pull/465)
-- **#457** [feat(snapshot): verify delivered snapshots against integrity receipts](https://github.com/Hebbian-Robotics/hflow/pull/457)
 
 Issues I opened:
 
