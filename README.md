@@ -6,7 +6,7 @@
 
 <!-- HFLOW:START -->
 
-**28 PRs merged, 11 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
+**28 PRs merged, 12 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
 - **#502** [fix(checks): validate canonical CRCs once at lane entry with memoization](https://github.com/Hebbian-Robotics/hflow/pull/502)
 - **#493** [refactor(snapshot): type receipt entries while preserving the content_id invariant](https://github.com/Hebbian-Robotics/hflow/pull/493)
@@ -16,9 +16,9 @@
 
 Issues I opened:
 
+- **#519** [[Bug]: prepare.py: running a second factory shard silently overwrites the first corpus and stamps false provenance](https://github.com/Hebbian-Robotics/hflow/issues/519)
 - **#474** [check lanes re-certify a decayed canonical episode: post-sync reads never validate chunk CRCs](https://github.com/Hebbian-Robotics/hflow/issues/474)
 - **#472** [verify snapshot accepts directories the exporter would refuse: no format identity check at the verifier boundary](https://github.com/Hebbian-Robotics/hflow/issues/472)
-- **#376** [The fixed-GOP promise is stamped into provenance as "actually used" but is never measured on pass-through video](https://github.com/Hebbian-Robotics/hflow/issues/376)
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
 
