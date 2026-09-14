@@ -8,17 +8,17 @@
 
 **28 PRs merged, 12 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
-- **#502** [fix(checks): validate canonical CRCs once at lane entry with memoization](https://github.com/Hebbian-Robotics/hflow/pull/502)
-- **#493** [refactor(snapshot): type receipt entries while preserving the content_id invariant](https://github.com/Hebbian-Robotics/hflow/pull/493)
-- **#486** [fix(snapshot): refuse markers whose format identity the exporter would refuse](https://github.com/Hebbian-Robotics/hflow/pull/486)
-- **#483** [fix(snapshot): enforce the receipt inventory content_id at verify time](https://github.com/Hebbian-Robotics/hflow/pull/483)
 - **#465** [fix(doctor): report unsupported video encodings and missing schemas separately from read-failed](https://github.com/Hebbian-Robotics/hflow/pull/465)
+- **#457** [feat(snapshot): verify delivered snapshots against integrity receipts](https://github.com/Hebbian-Robotics/hflow/pull/457)
+- **#502** [fix(checks): validate canonical CRCs once at lane entry with memoization](https://github.com/Hebbian-Robotics/hflow/pull/502)
+- **#483** [fix(snapshot): enforce the receipt inventory content_id at verify time](https://github.com/Hebbian-Robotics/hflow/pull/483)
+- **#486** [fix(snapshot): refuse markers whose format identity the exporter would refuse](https://github.com/Hebbian-Robotics/hflow/pull/486)
 
 Issues I opened:
 
-- **#519** [[Bug]: prepare.py: running a second factory shard silently overwrites the first corpus and stamps false provenance](https://github.com/Hebbian-Robotics/hflow/issues/519)
+- **#460** [doctor labels a healthy video corrupt when a decoder is unavailable](https://github.com/Hebbian-Robotics/hflow/issues/460)
 - **#474** [check lanes re-certify a decayed canonical episode: post-sync reads never validate chunk CRCs](https://github.com/Hebbian-Robotics/hflow/issues/474)
-- **#472** [verify snapshot accepts directories the exporter would refuse: no format identity check at the verifier boundary](https://github.com/Hebbian-Robotics/hflow/issues/472)
+- **#519** [[Bug]: prepare.py: running a second factory shard silently overwrites the first corpus and stamps false provenance](https://github.com/Hebbian-Robotics/hflow/issues/519)
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
 
