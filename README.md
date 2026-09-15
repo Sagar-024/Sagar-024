@@ -6,19 +6,19 @@
 
 <!-- HFLOW:START -->
 
-**28 PRs merged, 12 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
+**29 PRs merged, 17 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
+- **#522** [fix(egocentric): derive episode identity and operator from the source](https://github.com/Hebbian-Robotics/hflow/pull/522)
 - **#465** [fix(doctor): report unsupported video encodings and missing schemas separately from read-failed](https://github.com/Hebbian-Robotics/hflow/pull/465)
 - **#457** [feat(snapshot): verify delivered snapshots against integrity receipts](https://github.com/Hebbian-Robotics/hflow/pull/457)
 - **#502** [fix(checks): validate canonical CRCs once at lane entry with memoization](https://github.com/Hebbian-Robotics/hflow/pull/502)
 - **#483** [fix(snapshot): enforce the receipt inventory content_id at verify time](https://github.com/Hebbian-Robotics/hflow/pull/483)
-- **#486** [fix(snapshot): refuse markers whose format identity the exporter would refuse](https://github.com/Hebbian-Robotics/hflow/pull/486)
 
 Issues I opened:
 
-- **#460** [doctor labels a healthy video corrupt when a decoder is unavailable](https://github.com/Hebbian-Robotics/hflow/issues/460)
-- **#474** [check lanes re-certify a decayed canonical episode: post-sync reads never validate chunk CRCs](https://github.com/Hebbian-Robotics/hflow/issues/474)
-- **#519** [[Bug]: prepare.py: running a second factory shard silently overwrites the first corpus and stamps false provenance](https://github.com/Hebbian-Robotics/hflow/issues/519)
+- **#535** [[Bug]:episode cache collision via _sanitize_topic serves one camera's pixels to another, bypassing QC](https://github.com/Hebbian-Robotics/hflow/issues/535)
+- **#536** [[Bug] : sync-omitted stage runs measure stale scratch cache, poisoning the catalog with old evidence under new content hashes](https://github.com/Hebbian-Robotics/hflow/issues/536)
+- **#529** [lerobot export: frame task_index survives task-list collapse, shipping frames that reference a nonexistent task](https://github.com/Hebbian-Robotics/hflow/issues/529)
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
 
