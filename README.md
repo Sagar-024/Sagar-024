@@ -6,19 +6,19 @@
 
 <!-- HFLOW:START -->
 
-**29 PRs merged, 17 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
+**30 PRs merged, 20 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
+- **#543** [fix(episode): make _sanitize_topic injective to prevent cache collisions (#535)](https://github.com/Hebbian-Robotics/hflow/pull/543)
 - **#522** [fix(egocentric): derive episode identity and operator from the source](https://github.com/Hebbian-Robotics/hflow/pull/522)
 - **#465** [fix(doctor): report unsupported video encodings and missing schemas separately from read-failed](https://github.com/Hebbian-Robotics/hflow/pull/465)
 - **#457** [feat(snapshot): verify delivered snapshots against integrity receipts](https://github.com/Hebbian-Robotics/hflow/pull/457)
 - **#502** [fix(checks): validate canonical CRCs once at lane entry with memoization](https://github.com/Hebbian-Robotics/hflow/pull/502)
-- **#483** [fix(snapshot): enforce the receipt inventory content_id at verify time](https://github.com/Hebbian-Robotics/hflow/pull/483)
 
 Issues I opened:
 
-- **#535** [[Bug]:episode cache collision via _sanitize_topic serves one camera's pixels to another, bypassing QC](https://github.com/Hebbian-Robotics/hflow/issues/535)
-- **#536** [[Bug] : sync-omitted stage runs measure stale scratch cache, poisoning the catalog with old evidence under new content hashes](https://github.com/Hebbian-Robotics/hflow/issues/536)
-- **#529** [lerobot export: frame task_index survives task-list collapse, shipping frames that reference a nonexistent task](https://github.com/Hebbian-Robotics/hflow/issues/529)
+- **#544** [[Good First Issue]: LeRobot importer crashes with a bare KeyError when a meta/episodes tree entry has no "path"](https://github.com/Hebbian-Robotics/hflow/issues/544)
+- **#546** [[Bug]: _joint_motion_profile treats NaN velocity steps as compliant, causing duplicate-stamped streams to pass velocity gates and dead channels to report 0% idle](https://github.com/Hebbian-Robotics/hflow/issues/546)
+- **#545** [[Bug]: camera_video publishes scratch-bound artifact URIs as durable, causing silent byte-replacement or hard deletion on sync rewrite](https://github.com/Hebbian-Robotics/hflow/issues/545)
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
 
