@@ -6,7 +6,7 @@
 
 <!-- HFLOW:START -->
 
-**32 PRs merged, 21 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
+**32 PRs merged, 22 issues opened** in [Hebbian-Robotics/hflow](https://github.com/Hebbian-Robotics/hflow) so far. Highlights:
 
 - **#561** [fix(ffmpeg): stage contact sheets through per-call temp + atomic replace (#556)](https://github.com/Hebbian-Robotics/hflow/pull/561)
 - **#549** [fix(checks): fail closed on unmeasurable joint-motion steps (#546)](https://github.com/Hebbian-Robotics/hflow/pull/549)
@@ -16,9 +16,9 @@
 
 Issues I opened:
 
+- **#573** [[Bug]: LeRobot importer consumes only the first page of the Hub tree listing - datasets with >1000 episode metadata files silently import a halved corpus and report success](https://github.com/Hebbian-Robotics/hflow/issues/573)
 - **#376** [The fixed-GOP promise is stamped into provenance as "actually used" but is never measured on pass-through video](https://github.com/Hebbian-Robotics/hflow/issues/376)
 - **#556** [[Bug]: contact_sheet writes JPEG directly to final path without atomic rename, allowing truncated crash artifacts to be cataloged as trusted evidence](https://github.com/Hebbian-Robotics/hflow/issues/556)
-- **#529** [lerobot export: frame task_index survives task-list collapse, shipping frames that reference a nonexistent task](https://github.com/Hebbian-Robotics/hflow/issues/529)
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
 
