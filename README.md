@@ -16,9 +16,9 @@
 
 Issues I opened:
 
+- **#528** [[Bug]: transform: declared-but-empty camera channel is dropped, merging distinct sources and erasing provenance](https://github.com/Hebbian-Robotics/hflow/issues/528)
 - **#545** [[Bug]: camera_video publishes scratch-bound artifact URIs as durable, causing silent byte-replacement or hard deletion on sync rewrite](https://github.com/Hebbian-Robotics/hflow/issues/545)
 - **#593** [[Bug]: LeRobot importer silently truncates datasets >100k files (HfApi siblings cap)  follow-up to #573](https://github.com/Hebbian-Robotics/hflow/issues/593)
-- **#573** [[Bug]: LeRobot importer consumes only the first page of the Hub tree listing - datasets with >1000 episode metadata files silently import a halved corpus and report success](https://github.com/Hebbian-Robotics/hflow/issues/573)
 
 [See all my merged PRs in HFlow](https://github.com/Hebbian-Robotics/hflow/pulls?q=is%3Apr+author%3ASagar-024+is%3Aclosed)
 
