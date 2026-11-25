@@ -1,10 +1,6 @@
 # Sagar Kharal
 
-I work on backend systems, data pipelines, and evaluation tooling for AI systems.
-
-## Now
-
-- Open to full-time backend and AI engineering roles.
+Mostly learning. I like UI work, and I am moving toward backend.
 
 ## Merged work
 
@@ -28,19 +24,7 @@ Issues I opened:
 
 <!-- HFLOW:END -->
 
-## Projects
-
-- [Repatch](https://github.com/Sagar-024/Repatch): autonomous bug-fixing agent. Reads an issue, writes a failing test, patches, verifies in a sandbox, opens a PR. Seven-step state machine with backtracking.
-- [vela-cascade-eval](https://github.com/Sagar-024/vela-cascade-eval): deterministic eval harness for scheduling agents. 500 seeded scenarios, 10 invariants, byte-identical replay. The naive agent produced 888 double bookings. The cascade-aware one produced none.
-- [groundedness-engine](https://github.com/Sagar-024/groundedness-engine): checks whether an AI claim is supported by the document it cites. Four ordered checks, no model call.
-- [CAREERLENS](https://github.com/Sagar-024/CAREERLENS): resume to job description matching. SBERT embeddings, 59-node skill graph, two-hop skill transfer.
-
-## Stack
-
-Python, TypeScript, SQL, React, Next.js, Node, PostgreSQL, DuckDB, Docker, GitHub Actions.
-
 ## Contact
 
 - [LinkedIn](https://linkedin.com/in/sagar-kharal)
 - sagarkharal024@gmail.com
-- [X](https://x.com/skharal4_s)
