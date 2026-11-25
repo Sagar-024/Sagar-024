@@ -1,7 +1,7 @@
 # Sagar Kharal
 
 Trying to learn (love UI, focusing on backend).
-Enjoying building at an early-stage startup.
+Enjoying my time at an early-stage startup.
 
 <!-- HFLOW:START -->
 
