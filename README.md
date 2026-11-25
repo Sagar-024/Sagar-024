@@ -1,8 +1,7 @@
 # Sagar Kharal
 
-Mostly trying to learn (love UI, focusing on backend).
-
-## Merged work
+Trying to learn (love UI, focusing on backend).
+Enjoying building at an early-stage startup.
 
 <!-- HFLOW:START -->
 
@@ -10,7 +9,6 @@ Mostly trying to learn (love UI, focusing on backend).
 
 <!-- HFLOW:END -->
 
-## Contact
-
-- [LinkedIn](https://linkedin.com/in/sagar-kharal)
-- sagarkharal024@gmail.com
+<div align="right">
+  <a href="mailto:sagarkharal024@gmail.com">sagarkharal024@gmail.com</a>
+</div>
