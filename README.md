@@ -4,8 +4,7 @@ I work on backend systems, data pipelines, and evaluation tooling for AI systems
 
 ## Now
 
-- Contract engineer. Company not named.
-- Open to backend and AI engineering roles.
+- Open to full-time backend and AI engineering roles.
 
 ## Merged work
 
