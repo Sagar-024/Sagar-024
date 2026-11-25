@@ -1,6 +1,6 @@
 # Sagar Kharal
 
-Trying to learn (love UI, focusing on backend).
+Trying to learn. Love UI, focusing on backend.
 Enjoying my time at an early-stage startup.
 
 <!-- HFLOW:START -->
